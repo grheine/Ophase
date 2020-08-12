@@ -42,7 +42,7 @@
 
 
 
-      <form class="validate-form" action="/action_page.php" method="post">
+      <form class="validate-form" action="<?= dirname($_SERVER['PHP_SELF'])?>/action_page.php" method="post">
         <div class="wide">
           <h2>Welcher O-Phasen-Typ bist du?</h2>
           <p class="fragebogen">Dieser Fragebogen dient dazu, dich etwas besser kennenzulernen, damit wir dich einer geeeigneten Gruppe zuweisen können. Wenn dir die Fragen zu persönlich sind oder du aus anderen Gründen nicht auf die Fragen antworten möchtest, kannst du die Felder auch einfach leer lassen.</p>
