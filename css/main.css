@@ -101,6 +101,15 @@ ul, li {
 	list-style-type: none;
 }
 
+ol li {
+  list-style-type: decimal;
+  font-family: Poppins-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+}
+
 
 /*---------------------------------------------*/
 input {
@@ -181,7 +190,7 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background-image: url("../images/molecules.png"), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+  background-image: url("../images/background_new.jpg"), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
@@ -704,5 +713,14 @@ ul.topnav li.right {
 }
 
 
+/*------------------------------------------------------------------
+[ FAQ ]*/
 
+.faq p {
+  padding-bottom: 20px;
+}
+
+.faq h3 {
+  font-size: 17px;
+}
 
