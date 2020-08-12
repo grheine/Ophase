@@ -110,6 +110,10 @@ ol li {
   margin: 0px;
 }
 
+ol {
+  margin-left: 15px;
+}
+
 
 /*---------------------------------------------*/
 input {
@@ -330,7 +334,7 @@ select {
 }
 
 /*---------------------------------------------*/
-.input[type="text"] {
+.input[type="text"], textarea{
   font-family: Poppins-Regular;
   font-size: 15px;
   color: #555555;
@@ -421,7 +425,7 @@ textarea.input {
   margin: auto;
 
   font-family: Poppins-Regular;
-  font-size: 16px;
+  /*font-size: 16px;*/
   color: #fff;
   line-height: 1.2;
 
@@ -569,6 +573,16 @@ th {
   line-height: 1.2;
 }
 
+.scroll {
+  overflow-x: auto;
+  padding-top: 10px;
+}
+
+.mytable td{
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #e9ecef;
+}
 
 
 /*------------------------------------------------------------------
@@ -584,29 +598,6 @@ th {
 }
 
 
-/*------------------------------------------------------------------
-[ Responsive ]*/
-
-@media (max-width: 576px) {
-  .contact-form {
-    padding: 43px 15px 57px 117px;
-  }
-}
-
-@media (max-width: 480px) {
-  .contact-form {
-    padding: 43px 15px 57px 15px;
-  }
-
-  .label-input {
-    text-align: left;
-    position: unset;
-    top: unset;
-    left: unset;
-    width: 100%;
-    padding: 0 5px;
-  }
-}
 
 
 /*------------------------------------------------------------------
@@ -724,3 +715,97 @@ ul.topnav li.right {
   font-size: 17px;
 }
 
+
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 576px) {
+  .contact-form {
+    padding: 0 37px 0 157px;
+  }
+
+  .wide {
+    padding: 50px 30px 0 30px;
+    overflow-x: auto;
+  }
+  .wide-check {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form {
+    padding: 0px 20px;
+  }
+
+  .label-input {
+    text-align: left;
+    position: unset;
+    top: unset;
+    left: unset;
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  .wide {
+    padding: 50px 20px 0 20px;
+  }
+
+  .form-table {
+    width: 500px;
+  }
+}
+
+@media (max-width: 375px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  .faq h3 {
+    font-size: 13px;
+  }
+
+  p, a,  .wide p, li {
+    font-size: 10px;
+  }
+
+  .contact-form-title-1 {
+    font-size: 30px;
+  }
+
+  .contact-form-title-2 {
+    font-size: 15px;
+  }
+
+  .table-label {
+    font-size: 13px;
+    width: 125px;
+  }
+
+  .label-input, label.radio , label.check {
+    font-size: 13px;
+  }
+
+  .input[type="text"], textarea {
+    font-size: 11px;
+  }
+}
+
+.fa-1x {
+font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+cursor: pointer;
+}
+.dark-blue-text {
+color: #0A38F5;
+}
+.dark-pink-text {
+color: #AC003A;
+}
+.dark-amber-text {
+color: #ff6f00;
+}
+.dark-teal-text {
+color: #004d40;
+}

@@ -45,7 +45,7 @@
     <h3>Warum sollte ich präsent an der O-Phase teilnehmen? </h3>
     <p>Um es kurz zu sagen, das Physikstudium ist im Alleingang so gut wie unmöglich zu meistern. Besonders bei den ersten Übungsblättern wirst du feststellen, dass diese alleine schlicht nicht lösbar sind – egal wie gut du in der Schule warst. Die Physik und das physikalische Denken leben vom regen Austausch von Ideen und seien wir mal ehrlich, gemeinsam macht das Lösen von schwierigen Problemen einfach viel mehr Spaß. Daher ist es sehr wichtig, dass du zu Beginn des Studiums Kommilitonen kennenlernst und eine Lerngruppe finden kannst. Und dafür ist die O-Phase da. Mit etwas Glück findest du in dieser legendären Woche nicht nur Lernpartner, sondern eventuell sogar Freunde fürs Leben.</p>
     <h3>Ich kann nicht vor Ort teilnehmen – was nun?</h3>
-    <p>Das ist gar kein Problem! Die wichtigen Programmpunkte werden alle digital per Zoom gestreamt. Das heißt du kannst bequem von deinem Sofa aus die wichtigen Dinge mitbekommen. Auch viele Abendprogrammpunkte versuchen wir digital umzusetzen. Zudem planen wir mit O-Phasengruppen, die rein digital stattfinden.</p>
+    <p>Das ist gar kein Problem! Die wichtigen Programmpunkte werden alle digital per Zoom gestreamt. Das heißt du kannst bequem von deinem Sofa aus die wichtigen Dinge mitbekommen. Auch viele Abendprogramm-Punkte versuchen wir digital umzusetzen. Zudem planen wir mit O-Phasengruppen, die rein digital stattfinden.</p>
 
     <h2>Vor dem Studium</h2>
     <h3>Wie rede ich <em>Sie</em> an?</h3>
@@ -92,7 +92,7 @@
     <h2>Deine Frage war nicht dabei?</h2>
     <p>Dann hast du drei Möglichkeiten, dich zu informieren. Am besten gehst du diese in chronologischer Reihenfolge durch:</p>
     <ol>
-    <li> <p>In unserem <a target="_blank" href="https://fachschaft.physik.kit.edu/drupal/sites/default/files/fsinfos/erstiinfo_1.pdf">Erstiinfo</a> stehen viele Antworten auf die obigen Fragen und noch vieles mehr. Dort findest du genauere Erklärungen zur Uni, dem Physik/Geophysik/Meteorologie/Lehramt Studium und dem Leben in Karlsruhe. Das Erstiinfo ist ein Produkt vieler, vieler Semster- und Lebenserfahrungen. Die solltest du dir also wirklich sehr zu Herzen nehmen.</p></li>
+    <li> <p>In unserem <a target="_blank" href="https://fachschaft.physik.kit.edu/drupal/sites/default/files/fsinfos/erstiinfo_1.pdf">Erstiinfo</a> stehen viele Antworten auf die obigen Fragen und noch vieles mehr. Dort findest du genauere Erklärungen zur Uni, dem Physik/ Geophysik/ Meteorologie/ Lehramt Studium und dem Leben in Karlsruhe. Das Erstiinfo ist ein Produkt vieler, vieler Semster- und Lebenserfahrungen. Die solltest du dir also wirklich sehr zu Herzen nehmen.</p></li>
     <li> <p>Deine O-Phasen Tutoren/Tutorinnen und die Orga – Die O-Phase ist dazu da, dich über das Studium zu informieren. Nutze also die Gelegenheit aus und frage allen Löcher in den Bauch. </p></li>
     <li> <p>Die <a target="_blank" href="https://fachschaft.physik.kit.edu/drupal/">Fachschaft</a>! Deine Studierendenvertretung ist dazu da, dich durch dein Studium zu begleiten. Sie ist dein Freund und Helfer und antwortet gerne auf Fragen. Außerhalb von Corona kann man gerne einfach jederzeit im sogenannten Sumpf oder dem Büro vorbeischauen und eine Person ansprechen. Ansonsten kannst du dich natürlich immer per <a href="mailto:fachschaft@physik.kit.edu">Mail</a> mit Fragen an uns wenden.</p></li>
     </ol>

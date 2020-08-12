@@ -16,6 +16,8 @@
   <link rel="stylesheet" type="text/css" href="css/util.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
+
+
 </head>
 <body>
 
@@ -23,12 +25,13 @@
   <div class="container-contact">
     <div class="wrap-contact">
       <div class="contact-form-title" style="background-image: url(images/bg-01.jpg);">
+        
         <ul class="topnav">
-      <li><a href="<?= dirname($_SERVER['PHP_SELF'])?>/">Start</a></li>
-      <li ><a class="active" href="<?= dirname($_SERVER['PHP_SELF'])?>/anmeldung">Anmeldung</a></li>
-      <li><a href="<?= dirname($_SERVER['PHP_SELF'])?>/faq">FAQ</a></li>
-      <li class="right"><a href="https://fachschaft.physik.kit.edu/drupal/" target="_blank">Fachschaft Physik</a></li>
-      </ul>
+          <li><a href="<?= dirname($_SERVER['PHP_SELF'])?>/">Start</a></li>
+          <li ><a class="active" href="<?= dirname($_SERVER['PHP_SELF'])?>/anmeldung">Anmeldung</a></li>
+          <li><a href="<?= dirname($_SERVER['PHP_SELF'])?>/faq">FAQ</a></li>
+          <li class="right"><a href="https://fachschaft.physik.kit.edu/drupal/" target="_blank">Fachschaft Physik</a></li>
+        </ul>
         <span class="contact-form-title-1">
           Anmeldung 
         </span>
@@ -45,7 +48,7 @@
           <p class="fragebogen">Dieser Fragebogen dient dazu, dich etwas besser kennenzulernen, damit wir dich einer geeeigneten Gruppe zuweisen können. Wenn dir die Fragen zu persönlich sind oder du aus anderen Gründen nicht auf die Fragen antworten möchtest, kannst du die Felder auch einfach leer lassen.</p>
         </div>
 
-        <div class="wide">
+        <div class="wide mytable">
         <table class="form-table">
           <tbody>
             <tr>
