@@ -670,39 +670,95 @@ th {
 /*------------------------------------------------------------------
 [ Navigation ]*/
 
-ul.topnav {
+.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   padding-bottom: 50px;
   overflow: hidden;
- /* background-color: #333;*/
+  float: left;
 }
 
-ul.topnav li {float: left;}
-
-ul.topnav li a {
+.topnav  a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  float: left;
+  font-size: 14px;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #99999940;}
+.topnav  a:hover:not(.active) {background-color: #99999940;}
 
-ul.topnav li a.active {background-color: #00876c70;}
+.topnav  a.active {background-color: #00876c70;}
 
-ul.topnav li.right {
+.topnav a.right {
   float: right;
-  padding-right: 0;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav .right {
+    float: left;
+  }
+}
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .topnav a {
+    font-size: 18px;
+  }
+}
+
+.downnav {
+  list-style-type: none;
+  padding: 10px 0;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+
+.downnav  a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 9px;
+  text-decoration: none;
+  font-size: 14px;
+  margin: auto;
+}
+
+.downnav a:hover {
+  color:#00876c;;
 }
 
 @media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
+  .downnav {margin: 0;}
 }
-
 
 /*------------------------------------------------------------------
 [ FAQ ]*/
@@ -791,21 +847,3 @@ ul.topnav li.right {
   }
 }
 
-.fa-1x {
-font-size: 1.5rem;
-}
-.navbar-toggler.toggler-example {
-cursor: pointer;
-}
-.dark-blue-text {
-color: #0A38F5;
-}
-.dark-pink-text {
-color: #AC003A;
-}
-.dark-amber-text {
-color: #ff6f00;
-}
-.dark-teal-text {
-color: #004d40;
-}
