@@ -9,13 +9,17 @@
       ?>
 
 
+<<<<<<< HEAD
       <form class="validate-form" action="<?= dirname($_SERVER['PHP_SELF'])?>/action_page.php" method="post">
+=======
+      <form class="validate-form" action="<?= dirname($_SERVER['PHP_SELF'])?>/inc/action_page.php" method="post">
+>>>>>>> sql injection improved
         <div class="wide">
           <h2>Welcher O-Phasen-Typ bist du?</h2>
           <p class="fragebogen">Dieser Fragebogen dient dazu, dich etwas besser kennenzulernen, damit wir dich einer geeeigneten Gruppe zuweisen können. Wenn dir die Fragen zu persönlich sind oder du aus anderen Gründen nicht auf die Fragen antworten möchtest, kannst du die Felder auch einfach leer lassen.</p>
         </div>
 
-        <div class="wide mytable">
+        <!-- <div class="wide mytable">
         <table class="form-table">
           <tbody>
             <tr>
@@ -83,7 +87,8 @@
             </tr>
           </tbody>
         </table>
-        </div>
+        </div> -->
+        
 
 
         <div class="wide"><h2>Informationen</h2></div>
