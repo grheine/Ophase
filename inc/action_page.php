@@ -19,6 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 }
 
+$conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 $sql = "INSERT INTO anmeldung (Vname, Nname, Email, Studiengang, Bama, International, Teilnahme, Message) VALUES (?, ?, ?, ?, ?, ?, ?, ?);";
 $stmt = mysqli_stmt_init($conn);
 
