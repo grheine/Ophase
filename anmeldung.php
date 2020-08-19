@@ -9,14 +9,185 @@
       ?>
 
 
-<<<<<<< HEAD
-      <form class="validate-form" action="<?= dirname($_SERVER['PHP_SELF'])?>/action_page.php" method="post">
-=======
+
       <form class="validate-form" action="<?= dirname($_SERVER['PHP_SELF'])?>/inc/action_page.php" method="post">
->>>>>>> sql injection improved
         <div class="wide">
           <h2>Welcher O-Phasen-Typ bist du?</h2>
-          <p class="fragebogen">Dieser Fragebogen dient dazu, dich etwas besser kennenzulernen, damit wir dich einer geeeigneten Gruppe zuweisen können. Wenn dir die Fragen zu persönlich sind oder du aus anderen Gründen nicht auf die Fragen antworten möchtest, kannst du die Felder auch einfach leer lassen.</p>
+          <p class="fragebogen">Dieser Fragebogen dient dazu, dich etwas besser kennenzulernen, damit wir dich einer geeigneten O-Phasengruppe zuweisen können. Bestenfalls findest du bereits in der O-Phase Freunde und Lernpartner für das gesamte Studium. Wenn dir die Fragen zu persönlich sind oder du aus anderen Gründen nicht auf die Fragen antworten möchtest, kannst du die Felder auch einfach leer lassen.</p>
+        </div>
+
+
+        <div class="wide">
+
+          <div class="wrap-input" >
+          <span style="display: block; padding-bottom: 15px;">Der perfekte Freitagabend für mich ist ... :</span>
+          <label class="mycheckbox"> eine Kneipentour
+            <input type="checkbox" name="freitagabend[]" value="kneipentour">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">in den Club gehen
+            <input type="checkbox" name="freitagabend[]" value="club">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">eine geile Party
+            <input type="checkbox" name="freitagabend[]" value="party">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">mit Freunden im Park
+            <input type="checkbox" name="freitagabend[]" value="park">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">die ganze Nacht zocken
+            <input type="checkbox" name="freitagabend[]" value="zocken">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">ein Spieleabend
+            <input type="checkbox" name="freitagabend[]" value="spieleabend">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">ein Film/-Serienmarathon
+            <input type="checkbox" name="freitagabend[]" value="filme">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">Kino/ Theater/ Konzert besuchen
+            <input type="checkbox" name="freitagabend[]" value="kultur">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"><input type="checkbox" name="freitagabend[]" value="anderes">
+            <span class="checkmark"></span> <input class="input alttext" type="text" name="altfreitagabend"  placeholder="anderes" >
+          </label>
+          <span class="focus-input"></span>
+          
+          </div>
+
+          <div class="wrap-input" >
+          <span style="display: block; padding-bottom: 15px;">Wie gehst du eine schwierige Aufgabe an?</span>
+          <label class="mycheckbox"> das wird sich schon irgendwie ergeben
+            <input type="checkbox" name="problem[]" value="irgendwie">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"> ich gebe mir erst recht Mühe
+            <input type="checkbox" name="problem[]" value="ehrgeizig">
+            <span class="checkmark"></span>
+          </label>
+                    <label class="mycheckbox"> ich gehe systematisch vor
+            <input type="checkbox" name="problem[]" value="systematisch">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"> ich suche mir Hilfe
+            <input type="checkbox" name="problem[]" value="hilfe">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"> ich ignoriere das Problem
+            <input type="checkbox" name="problem[]" value="ignorieren">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"><input type="checkbox" name="problem[]" value="anderes">
+            <span class="checkmark"></span> <input class="input" type="text" name="altproblem"  placeholder="anderes" >
+          </label>
+          <span class="focus-input"></span>
+          </div>
+
+          <div class="wrap-input" >
+          <span style="display: block; padding-bottom: 15px;">Zu welcher Tageszeit bist du am produktivsten?</span>
+          <label class="mycheckbox"> morgens
+            <input type="checkbox" name="produktiv[]" value="morgens">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"> mittags
+            <input type="checkbox" name="produktiv[]" value="mittags">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"> nachmittags
+            <input type="checkbox" name="produktiv[]" value="nachmittags">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"> abends/ nachts
+            <input type="checkbox" name="produktiv[]" value="abends">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"> kein Unterschied
+            <input type="checkbox" name="produktiv[]" value="egal">
+            <span class="checkmark"></span>
+          </label>
+          <span class="focus-input"></span>
+          </div>
+
+          <div class="wrap-input" >
+          <span style="display: block; padding-bottom: 15px;">Hattest du dieses Jahr Abitur oder hast du zwischen Schule und jetzt noch etwas anderes gemacht?</span>
+          <label class="mycheckbox"> dieses Jahr Abi
+            <input type="checkbox" name="gapyear[]" value="abidirekt">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"> Auslandsaufenthalt
+            <input type="checkbox" name="gapyear[]" value="ausland">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"> Arbeiten/ Praktikum
+            <input type="checkbox" name="gapyear[]" value="jobben">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"> Ausbildung/ Studium
+            <input type="checkbox" name="gapyear[]" value="ausbildung">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"> FSJ
+            <input type="checkbox" name="gapyear[]" value="fsj">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"><input type="checkbox" name="gapyear[]" value="anderes">
+            <span class="checkmark"></span> <input class="input" type="text" name="altgapyear"  placeholder="anderes" >
+          </label>
+          <span class="focus-input"></span>
+          </div>
+
+          <div class="wrap-input" >
+          <span style="display: block; padding-bottom: 15px;">Bisheriges Engagement im Ehrenamt oder Vereinen und wenn ja wo?</span>
+          <label class="mycheckbox"> nicht wirklich
+            <input type="checkbox" name="engagement[]" value="keins">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"> Schule
+            <input type="checkbox" name="engagement[]" value="Schule">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"> Verein
+            <input type="checkbox" name="engagement[]" value="verein">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"> sozial-politische Organisation
+            <input type="checkbox" name="engagement[]" value="soziales">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"> Gemeinde
+            <input type="checkbox" name="engagement[]" value="gemeinde">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"> Feuerwehr & Co
+            <input type="checkbox" name="engagement[]" value="feuerwehr">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"><input type="checkbox" name="engagement[]" value="anderes">
+            <span class="checkmark"></span> <input class="input" type="text" name="altengagement"  placeholder="anderes" >
+          </label>
+          <span class="focus-input"></span>
+          </div>
+
+           <div class="wrap-input" >
+          <span style="display: block; padding-bottom: 15px;">Was ist deine Motivation Physik/ Meteorologie/ Geophysik/ Lehramt zu studieren?</span>
+          <textarea class="input" name="warumphysik" placeholder="(bspw. die Welt verstehen/ verbessern, Herausforderung suchen...)"></textarea>
+          <span class="focus-input"></span>
+          </div>
+          <div class="wrap-input" >
+          <span style="display: block; padding-bottom: 15px;">Was wünschst du dir von der O-Phase?</span>
+          <textarea class="input" name="wuensche" placeholder="(bspw. Freunde finden, Informationen, Party...)"></textarea>
+          <span class="focus-input"></span>
+          </div>
+
+
+
+
+
         </div>
 
         <!-- <div class="wide mytable">
@@ -111,6 +282,12 @@
           <input class="input" type="text" name="email" placeholder="E-Mail Adresse eintragen">
           <span class="focus-input"></span>
         </div>
+
+        <div class="wrap-input validate-input" data-validate = "fehlt">
+          <span class="label-input">Alter (Jahre):</span>
+          <input class="input" type="number" name="age" placeholder="Alter eintragen">
+          <span class="focus-input"></span>
+        </div>
     
 
         <div class="wrap-input" >
@@ -163,11 +340,12 @@
           </div>
           <span class="focus-input"></span>
         </div>
+        
 
         
         <div class="wrap-input" >
           <span class="label-input">Kommentar:</span>
-          <textarea class="input" name="message" placeholder="(bspw. Wunschpartner, weitere Informationen,...)"></textarea>
+          <textarea class="input" name="message" placeholder="(bspw. Wunschpartner, Beeinträchtigungen, sonstige Informationen...)" rows="2"></textarea>
           <span class="focus-input"></span>
         </div>
 

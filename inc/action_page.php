@@ -3,14 +3,45 @@
 require_once('config.php');
 
 // define variables and set to empty values
-$vname = $nname =  $email = $studiengang = $bachelor = $international = $teilnahme  = $comment  = $success = "";
+$freitagabend = $altfreitagabend =  $problem = $altproblem = $produktiv = $gapyear = $altgapyear = $engagement = $altengagement =$warumphysik = $wuensche = $age = $vname = $nname =  $email = $studiengang = $bachelor = $international = $teilnahme  = $comment  = $success = "";
+
+	$fr= $pr = $prod = $gap = $eng = "";
 
 //form is submitted with POST method
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
+	$freitagabend = $_POST["freitagabend"];
+	$altfreitagabend = mysqli_real_escape_string($conn, $_POST["altfreitagabend"]);
+	foreach ((array) $freitagabend as $item) { $fr .= $item.","; } 
+	$fr .= $altfreitagabend;
+     
+	$problem = $_POST["problem"];
+	$altproblem = mysqli_real_escape_string($conn, $_POST["altproblem"]);
+	foreach((array) $problem as $item) { $pr .= $item.","; } 
+	$pr .= $altproblem;
+
+	$produktiv = $_POST["produktiv"];
+	foreach((array) $produktiv as $item)  { $prod .= $item.","; }
+
+	$gapyear = $_POST["gapyear"];
+	$altgapyear = mysqli_real_escape_string($conn, $_POST["altgapyear"]);
+	foreach((array) $gapyear as $item)  { $gap .= $item.","; }
+	$gap .= $altgapyear;	  
+
+	$engagement = $_POST["engagement"];
+	$altengagement = mysqli_real_escape_string($conn, $_POST["altengagement"]);
+	$eng="";
+	foreach((array) $engagement as $item)  { $eng .= $item.","; }
+	$eng .= $altengagement;  
+  
+
+	$warumphysik = mysqli_real_escape_string($conn, $_POST["warumphysik"]);
+	$wuensche = mysqli_real_escape_string($conn, $_POST["wuensche"]);
+
 	$vname = mysqli_real_escape_string($conn, $_POST["vname"]);
 	$nname = mysqli_real_escape_string($conn, $_POST["nname"]);
 	$email = mysqli_real_escape_string($conn, $_POST["email"]);
+	$age = mysqli_real_escape_string($conn, $_POST["age"]);
 	$studiengang = mysqli_real_escape_string($conn, $_POST["studiengang"]);
 	$bama = mysqli_real_escape_string($conn, $_POST["bama"]);
 	$international = mysqli_real_escape_string($conn, $_POST["international"]);
@@ -20,13 +51,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-$sql = "INSERT INTO anmeldung (Vname, Nname, Email, Studiengang, Bama, International, Teilnahme, Message) VALUES (?, ?, ?, ?, ?, ?, ?, ?);";
+$sql = "INSERT INTO anmeldung (Freitagabend, Problem, Produktiv, Gapyear, Engagement, Warumphysik, Wuensche, Age,  Vname, Nname, Email, Studiengang, Bama, International, Teilnahme, Message) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
 $stmt = mysqli_stmt_init($conn);
 
 if (!mysqli_stmt_prepare($stmt, $sql)) {
 	echo "SQL error";
 } else {
-	mysqli_stmt_bind_param($stmt, "ssssssss", $vname, $nname, $email, $studiengang, $bama, $international, $teilnahme, $message);
+	mysqli_stmt_bind_param($stmt, "ssssssssssssssss",$fr, $pr, $prod, $gap, $eng, $warumphysik, $wuensche, $age, $vname, $nname, $email, $studiengang, $bama, $international, $teilnahme, $message);
 	mysqli_stmt_execute($stmt);
 }
 
@@ -113,6 +144,7 @@ function test_input($data) {
 	$data = htmlspecialchars($data);
 	return $data;
 }
+
 
 header("Location: ../success.php");
 

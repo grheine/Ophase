@@ -57,7 +57,7 @@
             if(!status){
                 return false;
             } else {
-                return true
+                return true;
             }
 
         } else {
