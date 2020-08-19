@@ -1,12 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
 <?php include('header.php'); ?>
-
+<html lang="en">
+<body>
 <div class="container-contact">
 <div class="wrap-contact">
-    <?php 
+    <?php
     $title = "FAQ";
-    include('banner.php'); 
+    include('banner.php');
     ?>
-  
+
 
 <div class="wide faq">
     <h2>Was ist die O-Phase?</h2>
@@ -47,7 +50,7 @@
     <h2>Im Studium</h2>
     <h3>Was ist mit Jobs/Praktika?</h3>
     <p>Wenn du das Geld brauchst, oder einfach ein wenig Arbeitserfahrung sammeln willst, gibt es hier einen Haufen Nebenjobs – sowohl an als auch außerhalb der Uni. Allerdings ist es eine gute Idee, erst die großen Mathematikklausuren sowie die Orientierungsprüfung zu bestehen, bevor du mit einem Job anfängst.<br>
-    Berufspraktika sind im Physikstudium nicht vorgesehen. 
+    Berufspraktika sind im Physikstudium nicht vorgesehen.
     </p>
     <h3>Kann ich ins Ausland gehen?</h3>
     <p>Ja. Das wird sogar ganz gut gefördert: Für Auslandsaufenthalte innerhalb Europas gibt es das <a target="_blank" href="http://www.physik.kit.edu/Studium/Austauschprogramme/Erasmus_deutsch/">Erasmus-Programm</a>. Außerdem bietet die Fakultät einen <a target="_blank" href="http://www.physik.kit.edu/Studium/Austauschprogramme/Doppelmaster_outgoer/">Doppelmaster</a> mit der Université Grenoble Alpes an.</p>
@@ -66,7 +69,7 @@
     <p>Du kannst – aber ob das schlau ist?  Wenn man ein Studium anfängt, sollte man eigentlich auch auf eigenen Beinen stehen. Zudem lernt man die Leute mit denen man studiert nur kennen, wenn man auch wirklich am Ort des Geschehens ist und nicht dann weg muss, wenn die letzte Bahn fährt.</p>
     <h3>Kann ich mir ein Studiticket für den KVV schon vor dem Studium kaufen?</h3>
     <p>Du kannst dein Studiticket kaufen, sobald du dir deine <a target="_blank"  href="https://campus.studium.kit.edu/reports/studyreports.php"> Studien-/KVV-Bescheinigung </a> im Studierendenportal ausdrucken kannst - also sobald du immatrikuliert bist. Wenn du ein Physik-Studium anfängst, ist es sogar sinnvoll, dass du dir dein Ticket schon vor dem Vorlesungsbeginn kaufst, denn du bist wahrscheinlich schon ab dem Mathe-Vorkurs in Karlsruhe. Ab 18:00 täglich, am Wochenende und an Feiertagen kannst du übrigens mit der ausgedruckten KVV-Bescheinigung und deinem Studierendenausweis kostenlos den KVV nutzen.</p>
-    
+
     <h2>Deine Frage war nicht dabei?</h2>
     <p>Dann hast du drei Möglichkeiten, dich zu informieren. Am besten gehst du diese in chronologischer Reihenfolge durch:</p>
     <ol>
@@ -77,8 +80,8 @@
 
     </div>
 
-        
-
-    </div>
+</div>
     <?php include('footer.php'); ?>
-
+</div>
+</body>
+</html>

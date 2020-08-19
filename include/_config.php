@@ -1,7 +1,6 @@
 <?php
 /**
  * Project: Fachschaft Physik@KIT OPhasen-Anmeldung
- * Author: Alex
  */
 
 define("DB_HOST", "localhost");

@@ -1,7 +1,6 @@
 <?php
 
-//require_once('config.php');
-require_once "include/Database.php";
+require_once "Database.php";
 
 // Check if all required parameters are passed to the system
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname"], $_POST["email"], $_POST["studiengang"], $_POST["bama"], $_POST["international"], $_POST["teilnahme"])) {
