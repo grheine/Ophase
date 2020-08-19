@@ -14,83 +14,78 @@
         <form class="validate-form" action="<?= dirname($_SERVER['PHP_SELF']) ?>/include/action_page.php" method="post">
             <div class="wide">
                 <h2>Welcher O-Phasen-Typ bist du?</h2>
-                <p class="fragebogen">Dieser Fragebogen dient dazu, dich etwas besser kennenzulernen, damit wir dich
-                    einer
-                    geeeigneten Gruppe zuweisen können. Wenn dir die Fragen zu persönlich sind oder du aus anderen
-                    Gründen
-                    nicht auf die Fragen antworten möchtest, kannst du die Felder auch einfach leer lassen.</p>
+                <p class="fragebogen">Dieser Fragebogen dient dazu, dich etwas besser kennenzulernen, damit wir dich einer geeeigneten Gruppe zuweisen können. Wenn dir die Fragen zu persönlich sind oder du aus anderen Gründen nicht auf die Fragen antworten möchtest, kannst du die Felder auch einfach leer lassen.</p>
             </div>
 
-            <div class="wide mytable">
-                <table class="form-table">
-                    <tbody>
-                    <tr>
-                        <th> &nbsp;</th>
-                        <th><label for="party_1"> 1 </label></th>
-                        <th><label for="party_1"> 2 </label></th>
-                        <th><label for="party_1"> 3 </label></th>
-                        <th><label for="party_1"> 4 </label></th>
-                        <th><label for="party_1"> 5 </label></th>
-                        <th>&nbsp;</th>
-                    </tr>
-                    <tr>
-                        <td class="table-label right">Ruhiges Wesen</td>
-                        <td><input type="radio" name="party" value="1" id="party_1"></td>
-                        <td><input type="radio" name="party" value="2" id="party_2"></td>
-                        <td><input type="radio" name="party" value="3" id="party_3"></td>
-                        <td><input type="radio" name="party" value="4" id="party_4"></td>
-                        <td><input type="radio" name="party" value="5" id="party_5"></td>
-                        <td class="table-label left">Partytier</td>
-                    </tr>
-                    <tr>
-                        <td class="table-label right">Früher Vogel</td>
-                        <td><input type="radio" name="nachteule" value="1" id="nachteule_1"></td>
-                        <td><input type="radio" name="nachteule" value="2" id="nachteule_2"></td>
-                        <td><input type="radio" name="nachteule" value="3" id="nachteule_3"></td>
-                        <td><input type="radio" name="nachteule" value="4" id="nachteule_4"></td>
-                        <td><input type="radio" name="nachteule" value="5" id="nachteule_5"></td>
-                        <td class="table-label left">Nachteule</td>
-                    </tr>
-                    <tr>
-                        <td class="table-label right">Gemächlich</td>
-                        <td><input type="radio" name="streber" value="1" id="streber_1"></td>
-                        <td><input type="radio" name="streber" value="2" id="streber_2"></td>
-                        <td><input type="radio" name="streber" value="3" id="streber_3"></td>
-                        <td><input type="radio" name="streber" value="4" id="streber_4"></td>
-                        <td><input type="radio" name="streber" value="5" id="streber_5"></td>
-                        <td class="table-label left">Ehrgeizig</td>
-                    </tr>
-                    <tr>
-                        <td class="table-label right">Scheu</td>
-                        <td><input type="radio" name="gesellig" value="1" id="gesellig_1"></td>
-                        <td><input type="radio" name="gesellig" value="2" id="gesellig_2"></td>
-                        <td><input type="radio" name="gesellig" value="3" id="gesellig_3"></td>
-                        <td><input type="radio" name="gesellig" value="4" id="gesellig_4"></td>
-                        <td><input type="radio" name="gesellig" value="5" id="gesellig_5"></td>
-                        <td class="table-label left">Gesellig</td>
-                    </tr>
-                    <tr>
-                        <td class="table-label right">Noob</td>
-                        <td><input type="radio" name="gamer" value="1" id="gamer_1"></td>
-                        <td><input type="radio" name="gamer" value="2" id="gamer_2"></td>
-                        <td><input type="radio" name="gamer" value="3" id="gamer_3"></td>
-                        <td><input type="radio" name="gamer" value="4" id="gamer_4"></td>
-                        <td><input type="radio" name="gamer" value="5" id="gamer_5"></td>
-                        <td class="table-label left">Profi-Gamer</td>
-                    </tr>
-                    <tr>
-                        <td class="table-label right">Angela Merkel</td>
-                        <td><input type="radio" name="memelord" value="1" id="memelord_1"></td>
-                        <td><input type="radio" name="memelord" value="2" id="memelord_2"></td>
-                        <td><input type="radio" name="memelord" value="3" id="memelord_3"></td>
-                        <td><input type="radio" name="memelord" value="4" id="memelord_4"></td>
-                        <td><input type="radio" name="memelord" value="5" id="memelord_5"></td>
-                        <td class="table-label left">Memelord</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-
+        <!-- <div class="wide mytable">
+        <table class="form-table">
+          <tbody>
+            <tr>
+              <th> &nbsp;</th>
+              <th><label for="party_1"> 1 </label></th>
+              <th><label for="party_1"> 2 </label></th>
+              <th><label for="party_1"> 3 </label></th>
+              <th><label for="party_1"> 4 </label></th>
+              <th><label for="party_1"> 5 </label></th>
+              <th>&nbsp;</th>
+            </tr>
+            <tr>
+              <td class="table-label right">Ruhiges Wesen</td>
+              <td><input type="radio" name="party" value="1" id="party_1"></td>
+              <td><input type="radio" name="party" value="2" id="party_2"></td>
+              <td><input type="radio" name="party" value="3" id="party_3"></td>
+              <td><input type="radio" name="party" value="4" id="party_4"></td>
+              <td><input type="radio" name="party" value="5" id="party_5"></td>
+              <td class="table-label left">Partytier</td>
+            </tr>
+            <tr>
+              <td class="table-label right">Früher Vogel</td>
+              <td><input type="radio" name="nachteule" value="1" id="nachteule_1"></td>
+              <td><input type="radio" name="nachteule" value="2" id="nachteule_2"></td>
+              <td><input type="radio" name="nachteule" value="3" id="nachteule_3"></td>
+              <td><input type="radio" name="nachteule" value="4" id="nachteule_4"></td>
+              <td><input type="radio" name="nachteule" value="5" id="nachteule_5"></td>
+              <td class="table-label left">Nachteule</td>
+            </tr>
+            <tr>
+              <td class="table-label right">Gemächlich</td>
+              <td><input type="radio" name="streber" value="1" id="streber_1"></td>
+              <td><input type="radio" name="streber" value="2" id="streber_2"></td>
+              <td><input type="radio" name="streber" value="3" id="streber_3"></td>
+              <td><input type="radio" name="streber" value="4" id="streber_4"></td>
+              <td><input type="radio" name="streber" value="5" id="streber_5"></td>
+              <td class="table-label left">Ehrgeizig</td>
+            </tr>
+            <tr>
+              <td class="table-label right">Scheu</td>
+              <td><input type="radio" name="gesellig" value="1" id="gesellig_1"></td>
+              <td><input type="radio" name="gesellig" value="2" id="gesellig_2"></td>
+              <td><input type="radio" name="gesellig" value="3" id="gesellig_3"></td>
+              <td><input type="radio" name="gesellig" value="4" id="gesellig_4"></td>
+              <td><input type="radio" name="gesellig" value="5" id="gesellig_5"></td>
+              <td class="table-label left">Gesellig</td>
+            </tr>
+            <tr>
+              <td class="table-label right">Noob</td>
+              <td><input type="radio" name="gamer" value="1" id="gamer_1"></td>
+              <td><input type="radio" name="gamer" value="2" id="gamer_2"></td>
+              <td><input type="radio" name="gamer" value="3" id="gamer_3"></td>
+              <td><input type="radio" name="gamer" value="4" id="gamer_4"></td>
+              <td><input type="radio" name="gamer" value="5" id="gamer_5"></td>
+              <td class="table-label left">Profi-Gamer</td>
+            </tr>
+            <tr>
+              <td class="table-label right">Angela Merkel</td>
+              <td><input type="radio" name="memelord" value="1" id="memelord_1"></td>
+              <td><input type="radio" name="memelord" value="2" id="memelord_2"></td>
+              <td><input type="radio" name="memelord" value="3" id="memelord_3"></td>
+              <td><input type="radio" name="memelord" value="4" id="memelord_4"></td>
+              <td><input type="radio" name="memelord" value="5" id="memelord_5"></td>
+              <td class="table-label left">Memelord</td>
+            </tr>
+          </tbody>
+        </table>
+        </div> -->
 
             <div class="wide"><h2>Informationen</h2></div>
 

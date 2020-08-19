@@ -25,7 +25,7 @@
         <div class="success">
             <h2>Herzlichen Glückwunsch!</h2>
             <p>Du hast dich erfolgreich zur O-Phase angemeldet!</p>
-            <a href="index.php">zurück</a>
+            <a href="<?= dirname($_SERVER['PHP_SELF'])?>/index.php">zurück</a>
         </div>
 
     </div>
