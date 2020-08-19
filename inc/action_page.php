@@ -3,12 +3,15 @@
 require_once('config.php');
 
 // define variables and set to empty values
+
 $freitagabend = $altfreitagabend =  $problem = $altproblem = $produktiv = $gapyear = $altgapyear = $engagement = $altengagement =$warumphysik = $wuensche = $age = $vname = $nname =  $email = $studiengang = $bachelor = $international = $teilnahme  = $comment  = $success = "";
 
 	$fr= $pr = $prod = $gap = $eng = "";
 
+
 //form is submitted with POST method
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
 
 	$freitagabend = $_POST["freitagabend"];
 	$altfreitagabend = mysqli_real_escape_string($conn, $_POST["altfreitagabend"]);
@@ -42,6 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$nname = mysqli_real_escape_string($conn, $_POST["nname"]);
 	$email = mysqli_real_escape_string($conn, $_POST["email"]);
 	$age = mysqli_real_escape_string($conn, $_POST["age"]);
+
 	$studiengang = mysqli_real_escape_string($conn, $_POST["studiengang"]);
 	$bama = mysqli_real_escape_string($conn, $_POST["bama"]);
 	$international = mysqli_real_escape_string($conn, $_POST["international"]);
@@ -51,12 +55,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+
 $sql = "INSERT INTO anmeldung (Freitagabend, Problem, Produktiv, Gapyear, Engagement, Warumphysik, Wuensche, Age,  Vname, Nname, Email, Studiengang, Bama, International, Teilnahme, Message) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
+
 $stmt = mysqli_stmt_init($conn);
 
 if (!mysqli_stmt_prepare($stmt, $sql)) {
 	echo "SQL error";
 } else {
+
 	mysqli_stmt_bind_param($stmt, "ssssssssssssssss",$fr, $pr, $prod, $gap, $eng, $warumphysik, $wuensche, $age, $vname, $nname, $email, $studiengang, $bama, $international, $teilnahme, $message);
 	mysqli_stmt_execute($stmt);
 }

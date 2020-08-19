@@ -9,7 +9,6 @@
       ?>
 
 
-
       <form class="validate-form" action="<?= dirname($_SERVER['PHP_SELF'])?>/inc/action_page.php" method="post">
         <div class="wide">
           <h2>Welcher O-Phasen-Typ bist du?</h2>
