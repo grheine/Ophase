@@ -10,9 +10,11 @@
 
 <div class="wide faq">
     <h2>Was ist die O-Phase?</h2>
-    <p>Die O-Phase ist unsere Infoveranstaltung, die dir helfen soll, dich besser an der Uni zurechtzufinden. Nach unserer Begrüßung lernst du in kleinen Gruppen dein Studium, Karlsruhe, sowie Ansprechpartner und Freunde für dein Studium kennen.</p>
+    <p>Die Orientierungsphase – kurz O-Phase – ist unsere Infoveranstaltung, die dir helfen soll, dich besser an der Uni zurechtzufinden. Nach unserer Begrüßung lernst du in kleinen Gruppen dein Studium, Karlsruhe, sowie Ansprechpartner und Freunde für dein Studium kennen.</p>
     <h3>Was lerne ich alles in der O-Phase?</h3>
     <p>Wir wollen natürlich nicht alles vorwegnehmen, das wäre ja langweilig. Aber ein paar Dinge können wir schonmal verraten. Wir beantworten Fragen, wie "Was muss ich für Vorlesungen belegen? Wie stelle ich meinen Stundenplan zusammen? Wie finde ich mich zurecht im Website-Dschungel des KIT? Wo gibts das beste Mittagessen? Wo kann ich günstig drucken? Was kann man an der Uni außer Studieren noch machen?" und viele mehr.  </p>
+    <h3>Was ist die O-Phasen-Gruppe?</h3>
+    <p>Deine O-Phasen-Gruppe ist eine Kleingruppe von bis zu 15 Erstsemestlern – oder kurz Erstis –, die von erfahrenen Studenten (Tutoren) aus höheren Semestern angeleitet wird. Die meiste Zeit verbringst du in dieser Gruppe und vor allem jetzt unter Corona Bedingungen findet die O-Phase ausschließlich in diesen Kleingruppen statt. D.h. du wirst keinen physischen Kontakt zu anderen O-Phasengruppen haben. Während der Gruppenzeiten zeigen dir deine Tutoren beispielsweise, wie man ein Buch in der Bibliothek ausleiht oder wo man am besten Mittagessen kann und natürlich vieles mehr. </p>
     <h3>Was sollte ich nicht verpassen?</h3>
     <p>Alles :)
     Natürlich empfehlen wir dir, am gesamten Programm teilzunehmen. Falls du das nicht schaffst, solltest du auf jeden Fall an der Prüfungsordnung- und Nebenfachvorstellung teilnehmen. Solltest du diese Veranstaltungen auch verpassen, kannst du dich per <a href="mailto:fachschaft@physik.kit.edu">Mail</a> bei uns melden, damit du die wichtigen Informationen trotzdem erhältst.</p>
@@ -47,7 +49,7 @@
     <h2>Im Studium</h2>
     <h3>Was ist mit Jobs/Praktika?</h3>
     <p>Wenn du das Geld brauchst, oder einfach ein wenig Arbeitserfahrung sammeln willst, gibt es hier einen Haufen Nebenjobs – sowohl an als auch außerhalb der Uni. Allerdings ist es eine gute Idee, erst die großen Mathematikklausuren sowie die Orientierungsprüfung zu bestehen, bevor du mit einem Job anfängst.<br>
-    Berufspraktika sind im Physikstudium nicht vorgesehen. 
+    Berufspraktika sind im Physikstudium nicht vorgesehen. Im Geophysikstudium ist ein Berufspraktikum im 5. Semester vorgesehen. 
     </p>
     <h3>Kann ich ins Ausland gehen?</h3>
     <p>Ja. Das wird sogar ganz gut gefördert: Für Auslandsaufenthalte innerhalb Europas gibt es das <a target="_blank" href="http://www.physik.kit.edu/Studium/Austauschprogramme/Erasmus_deutsch/">Erasmus-Programm</a>. Außerdem bietet die Fakultät einen <a target="_blank" href="http://www.physik.kit.edu/Studium/Austauschprogramme/Doppelmaster_outgoer/">Doppelmaster</a> mit der Université Grenoble Alpes an.</p>

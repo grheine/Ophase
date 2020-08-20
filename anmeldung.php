@@ -12,7 +12,7 @@
       <form class="validate-form" action="<?= dirname($_SERVER['PHP_SELF'])?>/inc/action_page.php" method="post">
         <div class="wide">
           <h2>Welcher O-Phasen-Typ bist du?</h2>
-          <p class="fragebogen">Dieser Fragebogen dient dazu, dich etwas besser kennenzulernen, damit wir dich einer geeigneten O-Phasengruppe zuweisen können. Bestenfalls findest du bereits in der O-Phase Freunde und Lernpartner für das gesamte Studium. Wenn dir die Fragen zu persönlich sind oder du aus anderen Gründen nicht auf die Fragen antworten möchtest, kannst du die Felder auch einfach leer lassen.</p>
+          <p class="fragebogen">Dieser Fragebogen dient dazu, dich etwas besser kennenzulernen, damit wir dich einer geeigneten <a href="<?= dirname($_SERVER['PHP_SELF'])?>/faq">O-Phasen-Gruppe</a> zuweisen können. Denn bestenfalls findest du bereits in der O-Phase Freunde und Lernpartner für das gesamte Studium. Und besonders jetzt unter Corona Bedingungen, wird es am Anfang sehr schwierig werden, Kommilitonen außerhalb der O-Phase kennenzulernen. Die Daten dienen ausschließlich zur Einteilung dieser Gruppen und werden selbstverständlich vertraulich behandelt und zeitnah gelöscht. Wenn dir die Fragen zu persönlich sind oder du aus anderen Gründen nicht auf die Fragen antworten möchtest, kannst du die Felder auch einfach leer lassen. <br> <br> Mehrfache Auwahl ist möglich.</p>
         </div>
 
 
@@ -20,18 +20,6 @@
 
           <div class="wrap-input" >
           <span style="display: block; padding-bottom: 15px;">Der perfekte Freitagabend für mich ist ... :</span>
-          <label class="mycheckbox"> eine Kneipentour
-            <input type="checkbox" name="freitagabend[]" value="kneipentour">
-            <span class="checkmark"></span>
-          </label>
-          <label class="mycheckbox">in den Club gehen
-            <input type="checkbox" name="freitagabend[]" value="club">
-            <span class="checkmark"></span>
-          </label>
-          <label class="mycheckbox">eine geile Party
-            <input type="checkbox" name="freitagabend[]" value="party">
-            <span class="checkmark"></span>
-          </label>
           <label class="mycheckbox">mit Freunden im Park
             <input type="checkbox" name="freitagabend[]" value="park">
             <span class="checkmark"></span>
@@ -44,12 +32,24 @@
             <input type="checkbox" name="freitagabend[]" value="spieleabend">
             <span class="checkmark"></span>
           </label>
-          <label class="mycheckbox">ein Film/-Serienmarathon
-            <input type="checkbox" name="freitagabend[]" value="filme">
+          <label class="mycheckbox">gemütlicher Abend zuhause
+            <input type="checkbox" name="freitagabend[]" value="allein">
             <span class="checkmark"></span>
           </label>
           <label class="mycheckbox">Kino/ Theater/ Konzert besuchen
             <input type="checkbox" name="freitagabend[]" value="kultur">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"> eine Kneipentour
+            <input type="checkbox" name="freitagabend[]" value="kneipentour">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">in den Club gehen
+            <input type="checkbox" name="freitagabend[]" value="club">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">eine geile Party
+            <input type="checkbox" name="freitagabend[]" value="party">
             <span class="checkmark"></span>
           </label>
           <label class="mycheckbox"><input type="checkbox" name="freitagabend[]" value="anderes">
@@ -141,7 +141,7 @@
           </div>
 
           <div class="wrap-input" >
-          <span style="display: block; padding-bottom: 15px;">Bisheriges Engagement im Ehrenamt oder Vereinen und wenn ja wo?</span>
+          <span style="display: block; padding-bottom: 15px;">Bisheriges Engagement im Ehrenamt oder Organisationen und wenn ja wo?</span>
           <label class="mycheckbox"> nicht wirklich
             <input type="checkbox" name="engagement[]" value="keins">
             <span class="checkmark"></span>
@@ -261,7 +261,10 @@
         
 
 
-        <div class="wide"><h2>Informationen</h2></div>
+        <div class="wide">
+          <h2>Informationen</h2>
+           <p> Diese Daten dienen zum einen ebenfalls dazu, dich einer geeigneten Gruppe zuzuweisen und zum anderen benötigen wir die Daten aufgrund der <a href="https://www.baden-wuerttemberg.de/de/service/aktuelle-infos-zu-corona/aktuelle-corona-verordnung-des-landes-baden-wuerttemberg/">Corona-Verordnung</a> (siehe §6). Die persönlichen Daten werden vertraulich behandelt und zeitnah gelöscht. </p>
+        </div>
         
         <div class="contact-form ">
         <div class="wrap-input validate-input" data-validate="fehlt">
@@ -279,6 +282,12 @@
         <div class="wrap-input validate-input" data-validate = "falsches Format">
           <span class="label-input">E-Mail:</span>
           <input class="input" type="text" name="email" placeholder="E-Mail Adresse eintragen">
+          <span class="focus-input"></span>
+        </div>
+
+        <div class="wrap-input validate-input" data-validate = "falsches Format">
+          <span class="label-input">Telefonnummer:</span>
+          <input class="input" type="phone" name="phone" placeholder="Telefonnummer eintragen">
           <span class="focus-input"></span>
         </div>
 
@@ -331,7 +340,7 @@
           <span class="label-input">Ich nehme teil:</span>
           <div class="question-answer question input validate-input " data-validate = "fehlt" >
             <input type="radio" class="input" value="offline" id="offline" name="teilnahme"/>
-            <label for="offline" class="radio"><span>präsent</span></label>
+            <label for="offline" class="radio"><span>vor Ort & digital</span></label>
             <input type="radio" class="input" value="online" id="online" name="teilnahme" />
             <label for="online" class="radio"><span>nur digital</span></label>
             <input type="radio" class="input" value="unklar" id="unklar" name="teilnahme" />

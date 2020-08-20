@@ -60,6 +60,10 @@
                 return true;
             }
 
+        } else if($(input).attr('type') == 'phone' || $(input).attr('name') == 'phone') {
+            if($(input).val().trim().match(/^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s\./0-9]*$/g) == null) {
+                return false;
+            }
         } else {
             if($(input).val().trim() == '' ){
                 return false;
