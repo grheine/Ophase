@@ -12,7 +12,7 @@
       <form class="validate-form" action="<?= dirname($_SERVER['PHP_SELF'])?>/inc/action_page.php" method="post">
         <div class="wide">
           <h2>Welcher O-Phasen-Typ bist du?</h2>
-          <p class="fragebogen">Dieser Fragebogen dient dazu, dich etwas besser kennenzulernen, damit wir dich einer geeigneten O-Phasengruppe zuweisen können. Bestenfalls findest du bereits in der O-Phase Freunde und Lernpartner für das gesamte Studium. Wenn dir die Fragen zu persönlich sind oder du aus anderen Gründen nicht auf die Fragen antworten möchtest, kannst du die Felder auch einfach leer lassen.</p>
+          <p class="fragebogen">Dieser Fragebogen dient dazu, dich etwas besser kennenzulernen, damit wir dich einer geeigneten <a href="<?= dirname($_SERVER['PHP_SELF'])?>/faq">O-Phasen-Gruppe</a> zuweisen können. Denn bestenfalls findest du bereits in der O-Phase Freunde und Lernpartner für das gesamte Studium. Und besonders jetzt unter Corona Bedingungen, wird es am Anfang sehr schwierig werden, Kommilitonen außerhalb der O-Phase kennenzulernen. Die Daten dienen ausschließlich zur Einteilung dieser Gruppen und werden selbstverständlich vertraulich behandelt und zeitnah gelöscht. Wenn dir die Fragen zu persönlich sind oder du aus anderen Gründen nicht auf die Fragen antworten möchtest, kannst du die Felder auch einfach leer lassen. <br> <br> Mehrfache Auwahl ist möglich.</p>
         </div>
 
 
@@ -44,8 +44,8 @@
             <input type="checkbox" name="freitagabend[]" value="spieleabend">
             <span class="checkmark"></span>
           </label>
-          <label class="mycheckbox">ein Film/-Serienmarathon
-            <input type="checkbox" name="freitagabend[]" value="filme">
+          <label class="mycheckbox">gemütlicher Abend zuhause
+            <input type="checkbox" name="freitagabend[]" value="allein">
             <span class="checkmark"></span>
           </label>
           <label class="mycheckbox">Kino/ Theater/ Konzert besuchen
@@ -141,7 +141,7 @@
           </div>
 
           <div class="wrap-input" >
-          <span style="display: block; padding-bottom: 15px;">Bisheriges Engagement im Ehrenamt oder Vereinen und wenn ja wo?</span>
+          <span style="display: block; padding-bottom: 15px;">Bisheriges Engagement im Ehrenamt oder Organisationen und wenn ja wo?</span>
           <label class="mycheckbox"> nicht wirklich
             <input type="checkbox" name="engagement[]" value="keins">
             <span class="checkmark"></span>
@@ -261,7 +261,10 @@
         
 
 
-        <div class="wide"><h2>Informationen</h2></div>
+        <div class="wide">
+          <h2>Informationen</h2>
+           <p> Diese Daten dienen zum einen ebenfalls dazu, dich einer geeigneten Gruppe zuzuweisen und zum anderen benötigen wir die Daten als Schutzmaßnahme wegen Covid-19. Die persönlichen Daten werden vertraulich behandelt und zeitnah gelöscht. </p>
+        </div>
         
         <div class="contact-form ">
         <div class="wrap-input validate-input" data-validate="fehlt">
