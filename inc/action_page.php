@@ -3,7 +3,7 @@
 require_once("Database.php");
 
 // Check if the required parameters are passed
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname"], $_POST["email"], $_POST["age"], $_POST["studiengang"], $_POST["bama"], $_POST["international"], $_POST["teilnahme"])) {
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname"], $_POST["email"], $_POST["age"], $_POST["phone"], $_POST["studiengang"], $_POST["bama"], $_POST["international"], $_POST["teilnahme"])) {
 
     $db = new Database();
     $pdo = $db->connect();
@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname
     // Define variables and set to empty values
     $freitagabend = $altfreitagabend =  $problem = $altproblem = $produktiv = $gapyear = $altgapyear = $engagement = "";
     $altengagement = $warumphysik = $wuensche = $age = $vname = $nname = $email = $studiengang = $bachelor = "";
-    $international = $teilnahme = $comment = $success = "";
+    $international = $teilnahme = $comment = $success = $phone = "";
 
     $fr= $pr = $prod = $gap = $eng = "";
 
@@ -51,6 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname
     $nname = $_POST["nname"];
     $email = $_POST["email"];
     $age = $_POST["age"];
+    $phone = $_POST["phone"];
     $studiengang = $_POST["studiengang"];
     $bama = $_POST["bama"];
     $international = $_POST["international"];
@@ -63,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname
     }
 
     // Create query and bind the parameters
-    $query = $pdo->prepare("INSERT INTO anmeldung (Freitagabend, Problem, Produktiv, Gapyear, Engagement, Warumphysik, Wuensche, Age, Vname, Nname, Email, Studiengang, Bama, International, Teilnahme, Message) VALUES (:abend, :problem, :produktiv, :gapyear, :engagement, :warumphysik, :wuensche, :age, :vname, :nname, :email, :studiengang, :bama, :international, :teilnahme, :message);");
+    $query = $pdo->prepare("INSERT INTO anmeldung (Freitagabend, Problem, Produktiv, Gapyear, Engagement, Warumphysik, Wuensche, Age, Vname, Nname, Email, Telefon, Studiengang, Bama, International, Teilnahme, Message) VALUES (:abend, :problem, :produktiv, :gapyear, :engagement, :warumphysik, :wuensche, :age, :vname, :nname, :email, :phone, :studiengang, :bama, :international, :teilnahme, :message);");
     $query->bindParam(":abend", $fr);
     $query->bindParam(":problem", $pr);
     $query->bindParam(":produktiv", $prod);
@@ -75,6 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname
     $query->bindParam(":vname", $vname);
     $query->bindParam(":nname", $nname);
     $query->bindParam(":email", $email);
+    $query->bindParam(":phone", $phone);
     $query->bindParam(":studiengang", $studiengang);
     $query->bindParam(":bama", $bama);
     $query->bindParam(":international", $international);
