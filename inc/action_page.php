@@ -8,6 +8,7 @@ $freitagabend = $altfreitagabend =  $problem = $altproblem = $produktiv = $gapye
 
 	$fr= $pr = $prod = $gap = $eng = "";
 
+$conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
 //form is submitted with POST method
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -53,8 +54,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$message = mysqli_real_escape_string($conn, $_POST["message"]);
 
 }
-
-$conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
 $sql = "INSERT INTO anmeldung (Freitagabend, Problem, Produktiv, Gapyear, Engagement, Warumphysik, Wuensche, Age,  Vname, Nname, Email, Studiengang, Bama, International, Teilnahme, Message) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
 
