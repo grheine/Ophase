@@ -10,7 +10,7 @@
 
 <div class="wide faq">
     <h2>Was ist die O-Phase?</h2>
-    <p>Die O-Phase ist unsere Infoveranstaltung, die dir helfen soll, dich besser an der Uni zurechtzufinden. Nach unserer Begrüßung lernst du in kleinen Gruppen dein Studium, Karlsruhe, sowie Ansprechpartner und Freunde für dein Studium kennen.</p>
+    <p>Die Orientierungsphase – kurz O-Phase – ist unsere Infoveranstaltung, die dir helfen soll, dich besser an der Uni zurechtzufinden. Nach unserer Begrüßung lernst du in kleinen Gruppen dein Studium, Karlsruhe, sowie Ansprechpartner und Freunde für dein Studium kennen.</p>
     <h3>Was lerne ich alles in der O-Phase?</h3>
     <p>Wir wollen natürlich nicht alles vorwegnehmen, das wäre ja langweilig. Aber ein paar Dinge können wir schonmal verraten. Wir beantworten Fragen, wie "Was muss ich für Vorlesungen belegen? Wie stelle ich meinen Stundenplan zusammen? Wie finde ich mich zurecht im Website-Dschungel des KIT? Wo gibts das beste Mittagessen? Wo kann ich günstig drucken? Was kann man an der Uni außer Studieren noch machen?" und viele mehr.  </p>
     <h3>Was ist die O-Phasen-Gruppe?</h3>

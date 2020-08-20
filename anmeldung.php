@@ -20,18 +20,6 @@
 
           <div class="wrap-input" >
           <span style="display: block; padding-bottom: 15px;">Der perfekte Freitagabend für mich ist ... :</span>
-          <label class="mycheckbox"> eine Kneipentour
-            <input type="checkbox" name="freitagabend[]" value="kneipentour">
-            <span class="checkmark"></span>
-          </label>
-          <label class="mycheckbox">in den Club gehen
-            <input type="checkbox" name="freitagabend[]" value="club">
-            <span class="checkmark"></span>
-          </label>
-          <label class="mycheckbox">eine geile Party
-            <input type="checkbox" name="freitagabend[]" value="party">
-            <span class="checkmark"></span>
-          </label>
           <label class="mycheckbox">mit Freunden im Park
             <input type="checkbox" name="freitagabend[]" value="park">
             <span class="checkmark"></span>
@@ -50,6 +38,18 @@
           </label>
           <label class="mycheckbox">Kino/ Theater/ Konzert besuchen
             <input type="checkbox" name="freitagabend[]" value="kultur">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"> eine Kneipentour
+            <input type="checkbox" name="freitagabend[]" value="kneipentour">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">in den Club gehen
+            <input type="checkbox" name="freitagabend[]" value="club">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">eine geile Party
+            <input type="checkbox" name="freitagabend[]" value="party">
             <span class="checkmark"></span>
           </label>
           <label class="mycheckbox"><input type="checkbox" name="freitagabend[]" value="anderes">
@@ -263,7 +263,7 @@
 
         <div class="wide">
           <h2>Informationen</h2>
-           <p> Diese Daten dienen zum einen ebenfalls dazu, dich einer geeigneten Gruppe zuzuweisen und zum anderen benötigen wir die Daten als Schutzmaßnahme wegen Covid-19. Die persönlichen Daten werden vertraulich behandelt und zeitnah gelöscht. </p>
+           <p> Diese Daten dienen zum einen ebenfalls dazu, dich einer geeigneten Gruppe zuzuweisen und zum anderen benötigen wir die Daten aufgrund der <a href="https://www.baden-wuerttemberg.de/de/service/aktuelle-infos-zu-corona/aktuelle-corona-verordnung-des-landes-baden-wuerttemberg/">Corona-Verordnung</a> (siehe §6). Die persönlichen Daten werden vertraulich behandelt und zeitnah gelöscht. </p>
         </div>
         
         <div class="contact-form ">
@@ -334,7 +334,7 @@
           <span class="label-input">Ich nehme teil:</span>
           <div class="question-answer question input validate-input " data-validate = "fehlt" >
             <input type="radio" class="input" value="offline" id="offline" name="teilnahme"/>
-            <label for="offline" class="radio"><span>präsent</span></label>
+            <label for="offline" class="radio"><span>vor Ort & digital</span></label>
             <input type="radio" class="input" value="online" id="online" name="teilnahme" />
             <label for="online" class="radio"><span>nur digital</span></label>
             <input type="radio" class="input" value="unklar" id="unklar" name="teilnahme" />
