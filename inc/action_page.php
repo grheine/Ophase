@@ -4,7 +4,7 @@ require_once('config.php');
 
 // define variables and set to empty values
 
-$freitagabend = $altfreitagabend =  $problem = $altproblem = $produktiv = $gapyear = $altgapyear = $engagement = $altengagement =$warumphysik = $wuensche = $age = $vname = $nname =  $email = $studiengang = $bachelor = $international = $teilnahme  = $comment  = $success = "";
+$freitagabend = $altfreitagabend =  $problem = $altproblem = $produktiv = $gapyear = $altgapyear = $engagement = $altengagement =$warumphysik = $wuensche = $age = $vname = $nname =  $email = $phone = $studiengang = $bachelor = $international = $teilnahme  = $comment  = $success = "";
 
 	$fr= $pr = $prod = $gap = $eng = "";
 
@@ -45,6 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$vname = mysqli_real_escape_string($conn, $_POST["vname"]);
 	$nname = mysqli_real_escape_string($conn, $_POST["nname"]);
 	$email = mysqli_real_escape_string($conn, $_POST["email"]);
+	$phone = mysqli_real_escape_string($conn, $_POST["phone"]);
 	$age = mysqli_real_escape_string($conn, $_POST["age"]);
 
 	$studiengang = mysqli_real_escape_string($conn, $_POST["studiengang"]);
@@ -55,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 }
 
-$sql = "INSERT INTO anmeldung (Freitagabend, Problem, Produktiv, Gapyear, Engagement, Warumphysik, Wuensche, Age,  Vname, Nname, Email, Studiengang, Bama, International, Teilnahme, Message) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
+$sql = "INSERT INTO anmeldung (Freitagabend, Problem, Produktiv, Gapyear, Engagement, Warumphysik, Wuensche, Age,  Vname, Nname, Email, Telefon, Studiengang, Bama, International, Teilnahme, Message) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
 
 $stmt = mysqli_stmt_init($conn);
 
@@ -63,7 +64,7 @@ if (!mysqli_stmt_prepare($stmt, $sql)) {
 	echo "SQL error";
 } else {
 
-	mysqli_stmt_bind_param($stmt, "ssssssssssssssss",$fr, $pr, $prod, $gap, $eng, $warumphysik, $wuensche, $age, $vname, $nname, $email, $studiengang, $bama, $international, $teilnahme, $message);
+	mysqli_stmt_bind_param($stmt, "sssssssssssssssss",$fr, $pr, $prod, $gap, $eng, $warumphysik, $wuensche, $age, $vname, $nname, $email, $phone, $studiengang, $bama, $international, $teilnahme, $message);
 	mysqli_stmt_execute($stmt);
 }
 

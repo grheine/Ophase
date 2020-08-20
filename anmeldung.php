@@ -285,6 +285,12 @@
           <span class="focus-input"></span>
         </div>
 
+        <div class="wrap-input validate-input" data-validate = "falsches Format">
+          <span class="label-input">Telefonnummer:</span>
+          <input class="input" type="phone" name="phone" placeholder="Telefonnummer eintragen">
+          <span class="focus-input"></span>
+        </div>
+
         <div class="wrap-input validate-input" data-validate = "fehlt">
           <span class="label-input">Alter (Jahre):</span>
           <input class="input" type="number" name="age" placeholder="Alter eintragen">

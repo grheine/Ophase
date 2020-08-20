@@ -332,7 +332,7 @@ select {
 }
 
 /*---------------------------------------------*/
-.input[type="text"], textarea, input.input[type="number"]{
+.input[type="text"], textarea, input.input[type="number"], .input[type="phone"] {
   font-family: Poppins-Regular;
   font-size: 13px;
   color: #555555;
@@ -373,7 +373,7 @@ select {
 
 
 /*---------------------------------------------*/
-input.input[type="text"], input.input[type="number"] {
+input.input[type="text"], input.input[type="number"], input.input[type="phone"]  {
   height: 45px;
 }
 
