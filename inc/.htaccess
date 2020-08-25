@@ -1,0 +1,7 @@
+# Deny file access to all files accessing them from the web creating a 403
+Require all denied
+
+# Allow access only to the required pages, which is currently only action_page.php
+<Files action_page.php>
+	Require all granted
+</Files>
