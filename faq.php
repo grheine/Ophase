@@ -49,7 +49,7 @@
     <h2>Im Studium</h2>
     <h3>Was ist mit Jobs/Praktika?</h3>
     <p>Wenn du das Geld brauchst, oder einfach ein wenig Arbeitserfahrung sammeln willst, gibt es hier einen Haufen Nebenjobs – sowohl an als auch außerhalb der Uni. Allerdings ist es eine gute Idee, erst die großen Mathematikklausuren sowie die Orientierungsprüfung zu bestehen, bevor du mit einem Job anfängst.<br>
-    Berufspraktika sind im Physikstudium nicht vorgesehen. Im Geophysikstudium ist ein Berufspraktikum im 5. Semester vorgesehen. 
+    Berufspraktika sind im Physikstudium nicht vorgesehen. Im Geophysikstudium ist ein Berufspraktikum im 5. Semester vorgesehen. Im Lehramtstudium ist ein Orientierungspraktikum (3 Wochen) im Bachelor und beim Master ein ganzes halbes Jahr Praxissemester eingeplant. 
     </p>
     <h3>Kann ich ins Ausland gehen?</h3>
     <p>Ja. Das wird sogar ganz gut gefördert: Für Auslandsaufenthalte innerhalb Europas gibt es das <a target="_blank" href="http://www.physik.kit.edu/Studium/Austauschprogramme/Erasmus_deutsch/">Erasmus-Programm</a>. Außerdem bietet die Fakultät einen <a target="_blank" href="http://www.physik.kit.edu/Studium/Austauschprogramme/Doppelmaster_outgoer/">Doppelmaster</a> mit der Université Grenoble Alpes an.</p>
