@@ -1,6 +1,7 @@
 <?php include('header.php'); ?>
 
 <div class="container-contact">
+<div class="language"><a href="">de</a><p>|</p><a href="<?= dirname($_SERVER['PHP_SELF'])?>/english/faq">en</a></div>
 <div class="wrap-contact">
     <?php 
     $title = "FAQ";
@@ -52,8 +53,7 @@
     Berufspraktika sind im Physikstudium nicht vorgesehen. Im Geophysikstudium ist ein Berufspraktikum im 5. Semester vorgesehen. Im Lehramtstudium ist ein Orientierungspraktikum (3 Wochen) im Bachelor und beim Master ein ganzes halbes Jahr Praxissemester eingeplant. 
     </p>
     <h3>Kann ich ins Ausland gehen?</h3>
-    <p>Ja. Das wird sogar ganz gut gefördert: Für Auslandsaufenthalte innerhalb Europas gibt es das <a target="_blank" href="http://www.physik.kit.edu/Studium/Austauschprogramme/Erasmus_deutsch/">Erasmus-Programm</a>. Außerdem bietet die Fakultät einen <a target="_blank" href="http://www.physik.kit.edu/Studium/Austauschprogramme/Doppelmaster_outgoer/">Doppelmaster</a> mit der Université Grenoble Alpes an.</p>
-    <p>Als Bachelor ist es üblich, zwischen dem 4. und dem 6. Semester den Auslandsaufenthalt zu machen. Als Faustregel: Vorbereitungen sollten ca. 1 Jahr im Voraus begonnen werden. Als Master solltest du dich am besten schon vor oder ganz zu Beginn deines Studiums darum kümmern.</p>
+    <p>Ja. Das wird sogar ganz gut gefördert: Für Auslandsaufenthalte innerhalb Europas gibt es das <a target="_blank" href="http://www.physik.kit.edu/Studium/Austauschprogramme/Erasmus_deutsch/">Erasmus-Programm</a>. Außerdem bietet die Fakultät einen <a target="_blank" href="http://www.physik.kit.edu/Studium/Austauschprogramme/Doppelmaster_outgoer/">Doppelmaster</a> mit der Université Grenoble Alpes an. Als Bachelor ist es üblich, zwischen dem 4. und dem 6. Semester den Auslandsaufenthalt zu machen. Als Faustregel: Vorbereitungen sollten ca. 1 Jahr im Voraus begonnen werden. Als Master solltest du dich am besten schon vor oder ganz zu Beginn deines Studiums darum kümmern.</p>
     <h2>Karlsruhe</h2>
     <h3>Wie ist das KIT so allgemein?</h3>
     <p>Das KIT ist eine Campusuni, d.h. (fast) alle Gebäude liegen auf einem einzigen Gelände. Der Campus liegt zentral am Schlosspark nahe der Fußgängerzone, also mitten im Herzen der Stadt und hat eine sehr gute Anbindung an den ÖPNV. Falls du auf Natur stehst, bietet es sich in kleinen Lernpausen an, einen ein Spaziergang in den direkt im Norden angrenzenden Hardtwald zu machen. Aber auch sonst, ist der Campus sehr grün und bietet genug schattige Plätzchen zum Entspannen.</p>

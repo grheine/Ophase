@@ -1,6 +1,7 @@
 <?php include('header.php'); ?>
 
   <div class="container-contact">
+    <div class="language"><a href="">de</a><p>|</p><a href="<?= dirname($_SERVER['PHP_SELF'])?>/english/anmeldung">en</a></div>
     <div class="wrap-contact">
 
       <?php 

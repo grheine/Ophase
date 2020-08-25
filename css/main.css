@@ -827,6 +827,29 @@ th {
   }
 }
 
+
+.language {
+  overflow: hidden;
+  width: 670px;
+  text-align: right;
+}
+
+.language  a, .language p {
+  display: inline-block;
+  padding: 0 3px;
+  text-decoration: none;
+  font-size: 14px;
+  margin: auto;
+  color: white;
+}
+
+.language a:hover {
+  color:#00876c;
+}
+
+
+
+
 .downnav {
   list-style-type: none;
   padding: 10px 0;
@@ -892,7 +915,7 @@ th {
 }
 
 .downnav a:hover {
-  color:#00876c;;
+  color:#00876c;
 }
 
 @media screen and (max-width: 600px) {

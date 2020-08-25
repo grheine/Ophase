@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
 <div class="container-contact">
-
+    <div class="language"><a href="">de</a><p>|</p><a href="<?= dirname($_SERVER['PHP_SELF'])?>/english/error">en</a></div>
     <div class="wrap-contact">
         <?php
         $title = "Anmeldung";
@@ -17,4 +17,6 @@
 
 
     </div>
-</div>
+
+
+<?php include('footer.php'); ?>
