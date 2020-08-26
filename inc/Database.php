@@ -21,6 +21,7 @@ class Database
                 $this->is_connected = true;
                 return $this->pdo;
             }catch (PDOException $ex){
+                error_log("PDOException: $ex");
                 return null;
             }
 
