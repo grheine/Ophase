@@ -1,7 +1,9 @@
 <?php include('header.php'); ?>
 
 <div class="container-contact">
-<div class="language"><a href="<?= dirname($_SERVER['PHP_SELF'])?>/../faq">de</a><p>|</p><a href="">en</a></div>
+<div class="fullwidth">
+        <div class="language"><a href="<?= dirname($_SERVER['PHP_SELF'])?>/../faq">de</a><p>|</p><a href="">en</a></div>
+    </div>
 <div class="wrap-contact">
     <?php 
     $title = "FAQ";
