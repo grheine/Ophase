@@ -11,6 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname
     if (is_null($pdo)) {
         // Quit the script, if no database connection could be established
         header("Location: ../error.php");
+        error_log("Database connect failed");
         exit();
     }
 
@@ -96,6 +97,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname
 } else {
     // If the required parameters are missing, the redirect the user to the error page
     header("Location: ../error.php");
+    error_log("Parameters missing");
     exit();
 }
 
