@@ -827,11 +827,17 @@ th {
   }
 }
 
+.fullwidth {
+  width: 100%;
+}
 
 .language {
+  max-width: 670px;
   overflow: hidden;
-  width: 670px;
+  position: relative;
+  padding: 10px 0;
   text-align: right;
+  margin: auto;
 }
 
 .language  a, .language p {
