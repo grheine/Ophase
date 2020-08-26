@@ -10,7 +10,7 @@
       ?>
 
 
-      <form class="validate-form" action="<?= dirname($_SERVER['PHP_SELF'])?>/inc/action_page.php" method="post">
+      <form class="validate-form" action="<?= dirname($_SERVER['PHP_SELF'])?>/../inc/action_page.php" method="post">
         <div class="wide">
           <h2>Which O-Phase typ are you?</h2>
           <p class="fragebogen"> This formular serves to get to know you a little bit better in order to assign you to a suitable <a href="<?= dirname($_SERVER['PHP_SELF'])?>/faq">group</a>. Especially this year, it will be difficult to get to know your fellow students outside of the O-Phase. In the best case scenario you will find friends and study partners for your whole studies in this special week. The data we take from you is exclusively used to assign you to a group and is treated confidentially and deleted timely. If you do not want to answer the questions because they are for example to personally for you, you do not have to answer them and you can just leave them empty. <br> <br>
