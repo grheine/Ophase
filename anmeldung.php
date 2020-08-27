@@ -329,12 +329,12 @@
         </div>
 
         <div class="wrap-input" >
-          <span class="label-input">International Student:</span>
+          <span class="label-input">Nationalität:</span>
           <div class="question-answer question input validate-input " data-validate = "fehlt" >
-            <input type="radio" class="input" value="international" id="international" name="international"/>
-            <label for="international" class="radio"><span>ja</span></label>
             <input type="radio" class="input" value="national" id="national" name="international" />
-            <label for="national" class="radio"><span>nein</span></label>
+            <label for="national" class="radio"><span>deutsch</span></label>
+            <input type="radio" class="input" value="international" id="international" name="international"/>
+            <label for="international" class="radio"><span>international student</span></label>
           </div>
           <span class="focus-input"></span>
         </div>

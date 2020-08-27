@@ -12,7 +12,7 @@
       ?>
 
 
-      <form class="validate-form" action="<?= dirname($_SERVER['PHP_SELF'])?>/../inc/action_page.php" method="post">
+      <form class="validate-form" action="<?= dirname($_SERVER['PHP_SELF'])?>/../inc/action_page_en.php" method="post">
         <div class="wide">
           <h2>Which O-Phase typ are you?</h2>
           <p class="fragebogen"> This formular serves to get to know you a little bit better in order to assign you to a suitable <a href="<?= dirname($_SERVER['PHP_SELF'])?>/faq">group</a>. Especially this year, it will be difficult to get to know your fellow students outside of the O-Phase. In the best case scenario you will find friends and study partners for your whole studies in this special week. The data we take from you is exclusively used to assign you to a group and is treated confidentially and deleted timely. If you do not want to answer the questions because they are for example to personally for you, you do not have to answer them and you can just leave them empty. <br> <br>
@@ -58,7 +58,7 @@
             <span class="checkmark"></span>
           </label>
           <label class="mycheckbox"><input type="checkbox" name="freitagabend[]" value="anderes">
-            <span class="checkmark"></span> <input class="input alttext" type="text" name="altfreitagabend"  placeholder="anderes" >
+            <span class="checkmark"></span> <input class="input alttext" type="text" name="altfreitagabend"  placeholder="other" >
           </label>
           <span class="focus-input"></span>
           
@@ -87,7 +87,7 @@
             <span class="checkmark"></span>
           </label>
           <label class="mycheckbox"><input type="checkbox" name="problem[]" value="anderes">
-            <span class="checkmark"></span> <input class="input" type="text" name="altproblem"  placeholder="anderes" >
+            <span class="checkmark"></span> <input class="input" type="text" name="altproblem"  placeholder="other" >
           </label>
           <span class="focus-input"></span>
           </div>
@@ -140,7 +140,7 @@
             <span class="checkmark"></span>
           </label>
           <label class="mycheckbox"><input type="checkbox" name="gapyear[]" value="anderes">
-            <span class="checkmark"></span> <input class="input" type="text" name="altgapyear"  placeholder="anderes" >
+            <span class="checkmark"></span> <input class="input" type="text" name="altgapyear"  placeholder="other" >
           </label>
           <span class="focus-input"></span>
           </div>
@@ -172,7 +172,7 @@
             <span class="checkmark"></span>
           </label>
           <label class="mycheckbox"><input type="checkbox" name="engagement[]" value="anderes">
-            <span class="checkmark"></span> <input class="input" type="text" name="altengagement"  placeholder="anderes" >
+            <span class="checkmark"></span> <input class="input" type="text" name="altengagement"  placeholder="other" >
           </label>
           <span class="focus-input"></span>
           </div>
@@ -257,12 +257,12 @@
         </div>
 
         <div class="wrap-input" >
-          <span class="label-input">International Student:</span>
+          <span class="label-input">Nationality:</span>
           <div class="question-answer question input validate-input " data-validate = "missing" >
             <input type="radio" class="input" value="international" id="international" name="international"/>
-            <label for="international" class="radio"><span>yes</span></label>
+            <label for="international" class="radio"><span>international student</span></label>
             <input type="radio" class="input" value="national" id="national" name="international" />
-            <label for="national" class="radio"><span>no</span></label>
+            <label for="national" class="radio"><span>german citizen</span></label>
           </div>
           <span class="focus-input"></span>
         </div>
