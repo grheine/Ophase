@@ -1,4 +1,4 @@
-<div class="contact-form-title" style="background-image: url(images/bg-01.jpg);">        
+<div class="contact-form-title" style="background-image: url(images/schloss.jpg);">        
   <div class="topnav"  id="myTopnav">
     <a class="<?php if ($title == "Willkommen!") {echo(active);}; ?>" href="<?= dirname($_SERVER['PHP_SELF'])?>/">O-Phase</a>
     <a class="<?php if ($title == "Anmeldung") {echo(active);}; ?>" href="<?= dirname($_SERVER['PHP_SELF'])?>/anmeldung">Anmeldung</a>
