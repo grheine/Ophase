@@ -13,7 +13,7 @@
 
 		<div class="success">
 			<h2>Herzlichen Glückwunsch!</h2>
-			<p>Du hast dich erfolgreich zur O-Phase angemeldet!</p>
+			<p>Du hast dich erfolgreich zur O-Phase angemeldet! <br>	Wann und wo genau du am Montag sein musst, teilen wir dir kurz vor Beginn der O-Phase per Mail mit.</p>
 			<a href="<?= dirname($_SERVER['PHP_SELF'])?>/faq">noch Fragen? </a>
 
 		</div>	
