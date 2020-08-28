@@ -1,3 +1,26 @@
+<?php
+
+// Define the default error message
+$message = "Some error occurred while you tried to register. Please try again!";
+
+// Parse the error code, if one was passed to the system
+if (isset($_GET["error"]) && is_numeric($_GET["error"])) {
+
+    $error = (int) $_GET["error"];
+
+    switch ($error) {
+        case 1:
+            $message = "Your provided text is exceeding the limit of 4000 characters.</br>Please keep it short!";
+            break;
+        case 2:
+            $message = "Your age can't be negative!";
+            break;
+    }
+
+}
+
+?>
+
 <?php include('header.php'); ?>
 
 <div class="container-contact">
@@ -13,7 +36,7 @@
 
         <div class="success">
             <h2>Oops!</h2>
-            <p>Some error occurred while you tried to register. Please try again!</p>
+            <p><?php echo $message;?></p>
             <a href="<?= dirname($_SERVER['PHP_SELF'])?>/anmeldung">back to registration</a>
 
         </div>
