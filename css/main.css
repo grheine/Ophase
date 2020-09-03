@@ -503,7 +503,7 @@ float: left;
 }
 
 .question span {
-margin-left: 30px;
+margin-left: 25px;
 }
 
 label.radio:before {
@@ -615,7 +615,7 @@ display: none;
 .checkmark {
   font-size: 5px;
   position: absolute;
-  top: 2px;
+  top: 0px;
   left: 0;
   height: 17px;
   width: 17px;

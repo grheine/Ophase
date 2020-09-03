@@ -8,7 +8,7 @@ require '../vendor/autoload.php';
 define("MAXIMUM_LENGTH", 4000);
 
 // Check if the required parameters are passed
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname"], $_POST["email"], $_POST["age"], $_POST["phone"], $_POST["studiengang"], $_POST["bama"], $_POST["international"], $_POST["teilnahme"])) {
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname"], $_POST["email"], $_POST["phone"], $_POST["studiengang"], $_POST["bama"], $_POST["international"], $_POST["teilnahme"])) {
 
     $db = new Database();
     $pdo = $db->connect();
@@ -21,11 +21,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname
     }
 
     // Define variables and set to empty values
-    $freitagabend = $altfreitagabend = $problem = $altproblem = $produktiv = $gapyear = $altgapyear = $engagement = "";
+    $freitagabend = $altfreitagabend = $hobby = $sport = $musik = $althobby = $problem = $altproblem = $produktiv = $gapyear = $altgapyear = $engagement = "";
     $altengagement = $warumphysik = $wuensche = $age = $vname = $nname = $email = $studiengang = $bachelor = "";
     $international = $teilnahme = $comment = $success = $phone = "";
 
-    $fr = $pr = $prod = $gap = $eng = "";
+    $fr = $hob =  $pr = $prod = $gap = $eng = "";
 
     // Read the values and process them
     $freitagabend = $_POST["freitagabend"];
@@ -34,6 +34,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname
         $fr .= $item . ",";
     }
     $fr .= $altfreitagabend;
+
+    $hobby = $_POST["hobby"];
+    $sport = $_POST["sport"];
+    $musik = $_POST["musik"];
+    $althobby = $_POST["althobby"];
+    $hob .= $sport . ",";
+    $hob .= $musik . ",";
+    foreach ((array)$hobby as $item) {
+        $hob .= $item . ",";
+    }
+    $hob .= $althobby;
+    
 
     $problem = $_POST["problem"];
     $altproblem = $_POST["altproblem"];
@@ -63,6 +75,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname
 
     // Check the values of the generated functions
     checkInput($fr);
+    checkInput($hob);
     checkInput($pr);
     checkInput($prod);
     checkInput($gap);
@@ -87,8 +100,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname
     }
 
     // Create query and bind the parameters
-    $query = $pdo->prepare("INSERT INTO anmeldung (Freitagabend, Problem, Produktiv, Gapyear, Engagement, Warumphysik, Wuensche, Age, Vname, Nname, Email, Telefon, Studiengang, Bama, International, Teilnahme, Message) VALUES (:abend, :problem, :produktiv, :gapyear, :engagement, :warumphysik, :wuensche, :age, :vname, :nname, :email, :phone, :studiengang, :bama, :international, :teilnahme, :message);");
+    $query = $pdo->prepare("INSERT INTO anmeldung (Freitagabend, Hobby, Problem, Produktiv, Gapyear, Engagement, Warumphysik, Wuensche, Age, Vname, Nname, Email, Telefon, Studiengang, Bama, International, Teilnahme, Message) VALUES (:abend, :hobby, :problem, :produktiv, :gapyear, :engagement, :warumphysik, :wuensche, :age, :vname, :nname, :email, :phone, :studiengang, :bama, :international, :teilnahme, :message);");
     $query->bindParam(":abend", $fr);
+    $query->bindParam(":hobby", $hob);
     $query->bindParam(":problem", $pr);
     $query->bindParam(":produktiv", $prod);
     $query->bindParam(":gapyear", $gap);

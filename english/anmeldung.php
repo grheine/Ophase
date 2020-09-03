@@ -24,7 +24,7 @@
         <div class="wide">
 
           <div class="wrap-input" >
-          <span class="checkbox-title">For me the perfect Friday night is ... :</span>
+          <span class="checkbox-title">For me the perfect Friday night is</span>
           <label class="mycheckbox">meeting friends in the park
             <input type="checkbox" name="freitagabend[]" value="park">
             <span class="checkmark"></span>
@@ -61,7 +61,48 @@
             <span class="checkmark"></span> <input class="input alttext" type="text" name="altfreitagabend"  placeholder="other" >
           </label>
           <span class="focus-input"></span>
-          
+          </div>
+
+          <div class="wrap-input" >
+          <span class="checkbox-title">Hobbies</span>
+          <label class="mycheckbox"><input type="checkbox" name="hobby[]" value="sport">
+            <span class="checkmark"></span> <input class="input alttext" type="text" name="sport"  placeholder="sports" >
+          </label>
+          <label class="mycheckbox"><input type="checkbox" name="hobby[]" value="musik">
+            <span class="checkmark"></span> <input class="input alttext" type="text" name="musik"  placeholder="music/ instruments" >
+          </label>
+          <label class="mycheckbox">theatre
+            <input type="checkbox" name="hobby[]" value="theater">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">reading
+            <input type="checkbox" name="hobby[]" value="lesen">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">cooking
+            <input type="checkbox" name="hobby[]" value="kochen">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">gaming
+            <input type="checkbox" name="hobby[]" value="zocken">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">watching movies/ series
+            <input type="checkbox" name="hobby[]" value="filme">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">arts and crafts
+            <input type="checkbox" name="hobby[]" value="handwerk">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">travelling/ nature
+            <input type="checkbox" name="hobby[]" value="reisen">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"><input type="checkbox" name="hobby[]" value="anderes">
+            <span class="checkmark"></span> <input class="input alttext" type="text" name="althobby"  placeholder="other" >
+          </label>
+          <span class="focus-input"></span>
           </div>
 
           <div class="wrap-input" >
@@ -270,7 +311,7 @@
         <div class="wrap-input" >
           <span class="label-input">I participate:</span>
           <div class="question-answer question input validate-input " data-validate = "missing" >
-            <input type="radio" class="input" value="vor Ort" id="offline" name="teilnahme"/>
+            <input type="radio" class="input" value="offline" id="offline" name="teilnahme"/>
             <label for="offline" class="radio"><span>in person & digitally</span></label>
             <input type="radio" class="input" value="online" id="online" name="teilnahme" />
             <label for="online" class="radio"><span>only digitally</span></label>

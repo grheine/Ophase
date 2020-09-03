@@ -22,7 +22,7 @@
         <div class="wide">
 
           <div class="wrap-input" >
-          <span class="checkbox-title">Der perfekte Freitagabend für mich ist ... :</span>
+          <span class="checkbox-title">Der perfekte Freitagabend für mich ist</span>
           <label class="mycheckbox">mit Freunden im Park
             <input type="checkbox" name="freitagabend[]" value="park">
             <span class="checkmark"></span>
@@ -59,7 +59,48 @@
             <span class="checkmark"></span> <input class="input alttext" type="text" name="altfreitagabend"  placeholder="anderes" >
           </label>
           <span class="focus-input"></span>
-          
+          </div>
+
+          <div class="wrap-input" >
+          <span class="checkbox-title">Hobbies</span>
+          <label class="mycheckbox"><input type="checkbox" name="hobby[]" value="sport">
+            <span class="checkmark"></span> <input class="input alttext" type="text" name="sport"  placeholder="Sport" >
+          </label>
+          <label class="mycheckbox"><input type="checkbox" name="hobby[]" value="musik">
+            <span class="checkmark"></span> <input class="input alttext" type="text" name="musik"  placeholder="Musik/ Instrumente" >
+          </label>
+          <label class="mycheckbox">Theater
+            <input type="checkbox" name="hobby[]" value="theater">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">Lesen
+            <input type="checkbox" name="hobby[]" value="lesen">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">Kochen
+            <input type="checkbox" name="hobby[]" value="kochen">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">Zocken
+            <input type="checkbox" name="hobby[]" value="zocken">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">Filme/ Serien schauen
+            <input type="checkbox" name="hobby[]" value="filme">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">Kunst/Handwerk
+            <input type="checkbox" name="hobby[]" value="handwerk">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox">Reisen/ Natur
+            <input type="checkbox" name="hobby[]" value="reisen">
+            <span class="checkmark"></span>
+          </label>
+          <label class="mycheckbox"><input type="checkbox" name="hobby[]" value="anderes">
+            <span class="checkmark"></span> <input class="input alttext" type="text" name="althobby"  placeholder="anderes" >
+          </label>
+          <span class="focus-input"></span>
           </div>
 
           <div class="wrap-input" >
