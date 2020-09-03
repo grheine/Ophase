@@ -357,7 +357,7 @@ select {
 /*---------------------------------------------*/
 .input[type="text"], textarea, input.input[type="number"], .input[type="phone"] {
   font-family: Poppins-Regular;
-  font-size: 13px;
+  font-size: 14px;
   color: #555555;
   line-height: 1.2;
 

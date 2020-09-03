@@ -22,6 +22,7 @@
 
 
         <div class="wide">
+        <div style="width: 100%;"><p class="right">* mandatory</p></div>
 
           <div class="wrap-input" >
           <span class="checkbox-title">For me the perfect Friday night is</span>
@@ -237,28 +238,29 @@
           <h2>Personal Data</h2>
            <p> On the one hand, this data is also used to find a suitable group for you and on the other hand we need to take this data because of the <a href="https://www.baden-wuerttemberg.de/fileadmin/redaktion/m-sm/intern/downloads/Downloads_Gesundheitsschutz/2020-07-28_CoronaVO_konsolidierte_Fassung_ab_200806_en.pdf" target="_blank">Covid-19 regulations</a> (see also §6). The personal data will be treated confidentially and deleted timely.</p>
         </div>
-        
+
         <div class="contact-form ">
+        <div style="width: 100%;"><p class="right">* mandatory</p></div>
         <div class="wrap-input validate-input" data-validate="missing">
-          <span class="label-input">First name:</span>
+          <span class="label-input">First name*:</span>
           <input class="input" type="text" name="vname"  placeholder="Please insert your first name" >
           <span class="focus-input"></span>
         </div>
 
         <div class="wrap-input validate-input" data-validate="missing">
-          <span class="label-input">Family name:</span>
+          <span class="label-input">Family name*:</span>
           <input class="input" type="text" name="nname"  placeholder="Please insert your family name" >
           <span class="focus-input"></span>
         </div>
 
         <div class="wrap-input validate-input" data-validate = "wrong format">
-          <span class="label-input">Email:</span>
+          <span class="label-input">Email*:</span>
           <input class="input" type="text" name="email" placeholder="Please insert your email adress">
           <span class="focus-input"></span>
         </div>
 
         <div class="wrap-input validate-input" data-validate = "wrong format">
-          <span class="label-input">Phone number:</span>
+          <span class="label-input">Phone number*:</span>
           <input class="input" type="phone" name="phone" placeholder="Please insert your phone number">
           <span class="focus-input"></span>
         </div>
@@ -271,7 +273,7 @@
     
 
         <div class="wrap-input" >
-          <span class="label-input">Subject:</span>
+          <span class="label-input">Subject*:</span>
           <div class="question-answer question input validate-input " data-validate = "missing" >
             <input type="radio" class="input" value="Physik" id="physik" name="studiengang"/>
             <label for="physik" class="radio"><span>physics</span></label>
@@ -287,7 +289,7 @@
         </div>
 
         <div class="wrap-input" >
-          <span class="label-input">BSc/MSc:</span>
+          <span class="label-input">BSc/MSc*:</span>
           <div class="question-answer question input validate-input " data-validate = "missing" >
             <input type="radio" class="input" value="Bachelor" id="bachelor" name="bama"/>
             <label for="bachelor" class="radio"><span>bachelor</span></label>
@@ -298,7 +300,7 @@
         </div>
 
         <div class="wrap-input" >
-          <span class="label-input">Nationality:</span>
+          <span class="label-input">Nationality*:</span>
           <div class="question-answer question input validate-input " data-validate = "missing" >
             <input type="radio" class="input" value="international" id="international" name="international"/>
             <label for="international" class="radio"><span>international student</span></label>
@@ -309,7 +311,7 @@
         </div>
 
         <div class="wrap-input" >
-          <span class="label-input">I participate:</span>
+          <span class="label-input">I participate*:</span>
           <div class="question-answer question input validate-input " data-validate = "missing" >
             <input type="radio" class="input" value="offline" id="offline" name="teilnahme"/>
             <label for="offline" class="radio"><span>in person & digitally</span></label>

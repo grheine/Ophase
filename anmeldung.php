@@ -20,6 +20,8 @@
 
 
         <div class="wide">
+          <div style="width: 100%;"><p class="right">* Pflichtfelder</p></div>
+
 
           <div class="wrap-input" >
           <span class="checkbox-title">Der perfekte Freitagabend für mich ist</span>
