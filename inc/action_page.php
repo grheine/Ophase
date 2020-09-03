@@ -1,6 +1,9 @@
 <?php
 
 require_once("Database.php");
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+require '../vendor/autoload.php';
 
 define("MAXIMUM_LENGTH", 4000);
 
@@ -108,6 +111,33 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname
 
     // Close the query
     $query->closeCursor();
+
+    $mail = new PHPMailer(TRUE);
+    try {
+       $mail->setFrom('fachschaft@physik.kit.edu', 'Fachschaft Physik');
+       $mail->addAddress($email, $vname);
+       $mail->Subject = 'Anmeldung zur O-Phase';
+       $mail->isHTML(TRUE);
+       $mail->Body = nl2br("Hallo $vname,\n\n du hast dich erfolgreich zur O-Phase mit folgenden Daten angemeldet:  \n\n Name: $vname $nname \n E-Mail: $email \n Telefonnummer: $phone \n Studiengang: $studiengang $bama \n Nationalität:  $international \n Teilnahme: $teilnahme \n Nachricht: $message \n\n Falls du noch Fragen hast, kannst du uns natürlich gerne schreiben. \n Wir freuen uns auf dich! \n\n Viele Grüße \n Greta und Alex " );
+       $mail->AltBody = 'There is a great disturbance in the Force.';
+
+       /* SMTP parameters. */
+       $mail->isSMTP();
+       $mail->Host = 'smarthost.kit.edu';
+       $mail->SMTPAuth = False;
+       $mail->SMTPSecure = 'tls';
+       $mail->Port = 25;
+       $mail->send();
+    }
+    catch (Exception $e)
+    {
+       echo $e->errorMessage();
+    }
+    catch (\Exception $e)
+    {
+       echo $e->getMessage();
+    }
+
 
     // If the query was executed successfully, then refer to the next page and quit the script with exit()
     header("Location: ../" . getEnglishPrefix() . "success.php");
