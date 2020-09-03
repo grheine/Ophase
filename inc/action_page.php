@@ -128,6 +128,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname
 
     $mail = new PHPMailer(TRUE);
     try {
+       $mail->CharSet = 'UTF-8';   
        $mail->setFrom('fachschaft@physik.kit.edu', 'Fachschaft Physik');
        $mail->addAddress($email, $vname);
        $mail->Subject = 'Anmeldung zur O-Phase';
