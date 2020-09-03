@@ -24,7 +24,7 @@
         <div class="wide">
 
           <div class="wrap-input" >
-          <span style="display: block; padding-bottom: 15px;">For me the perfect Friday night is ... :</span>
+          <span class="checkbox-title">For me the perfect Friday night is ... :</span>
           <label class="mycheckbox">meeting friends in the park
             <input type="checkbox" name="freitagabend[]" value="park">
             <span class="checkmark"></span>
@@ -65,7 +65,7 @@
           </div>
 
           <div class="wrap-input" >
-          <span style="display: block; padding-bottom: 15px;">How do you solve a difficult task?</span>
+          <span class="checkbox-title">How do you solve a difficult task?</span>
           <label class="mycheckbox"> it will work out somehow
             <input type="checkbox" name="problem[]" value="irgendwie">
             <span class="checkmark"></span>
@@ -93,7 +93,7 @@
           </div>
 
           <div class="wrap-input" >
-          <span style="display: block; padding-bottom: 15px;">At which time of the day are you most productive?</span>
+          <span class="checkbox-title">At which time of the day are you most productive?</span>
           <label class="mycheckbox"> in the morning
             <input type="checkbox" name="produktiv[]" value="morgens">
             <span class="checkmark"></span>
@@ -118,7 +118,7 @@
           </div>
 
           <div class="wrap-input" >
-          <span style="display: block; padding-bottom: 15px;">Have you finished school this year? If not, what have you done in your gap time?</span>
+          <span class="checkbox-title">Have you finished school this year? If not, what have you done in your gap time?</span>
           <label class="mycheckbox"> finished school this year
             <input type="checkbox" name="gapyear[]" value="abidirekt">
             <span class="checkmark"></span>
@@ -146,7 +146,7 @@
           </div>
 
           <div class="wrap-input" >
-          <span style="display: block; padding-bottom: 15px;">Previous involvement in voluntary work or organizations and if so where?</span>
+          <span class="checkbox-title">Previous involvement in voluntary work or organizations and if so where?</span>
           <label class="mycheckbox"> not really
             <input type="checkbox" name="engagement[]" value="keins">
             <span class="checkmark"></span>
@@ -178,7 +178,7 @@
           </div>
 
            <div class="wrap-input" >
-          <span style="display: block; padding-bottom: 15px;">What is your motivation studying physics/ geophysics/ meteorology?</span>
+          <span class="checkbox-title">What is your motivation studying physics/ geophysics/ meteorology?</span>
           <textarea class="input" name="warumphysik" placeholder="(e.g. trying to understand the world, seeking the challenge,...)"></textarea>
           <span class="focus-input"></span>
           </div>
@@ -223,7 +223,7 @@
         </div>
 
         <div class="wrap-input validate-input" data-validate = "missing">
-          <span class="label-input">age (years):</span>
+          <span class="label-input">Age (years):</span>
           <input class="input" type="number" name="age" placeholder="Please insert your age">
           <span class="focus-input"></span>
         </div>
@@ -232,13 +232,13 @@
         <div class="wrap-input" >
           <span class="label-input">Subject:</span>
           <div class="question-answer question input validate-input " data-validate = "missing" >
-            <input type="radio" class="input" value="physik" id="physik" name="studiengang"/>
+            <input type="radio" class="input" value="Physik" id="physik" name="studiengang"/>
             <label for="physik" class="radio"><span>physics</span></label>
-            <input type="radio" class="input" value="geo" id="geo" name="studiengang" />
+            <input type="radio" class="input" value="Geophysik" id="geo" name="studiengang" />
             <label for="geo" class="radio"><span>geophysics</span></label>
-            <input type="radio" class="input" value="meteo" id="meteo" name="studiengang" />
+            <input type="radio" class="input" value="Meteorologie" id="meteo" name="studiengang" />
             <label for="meteo" class="radio"><span>meteorology</span></label>
-            <input type="radio" class="input" value="lehramt" id="lehramt" name="studiengang" />
+            <input type="radio" class="input" value="Lehramt" id="lehramt" name="studiengang" />
             <label for="lehramt" class="radio"><span>teaching</span></label>
             
           </div>
@@ -248,10 +248,10 @@
         <div class="wrap-input" >
           <span class="label-input">BSc/MSc:</span>
           <div class="question-answer question input validate-input " data-validate = "missing" >
-            <input type="radio" class="input" value="bachelor" id="bachelor" name="bama"/>
-            <label for="bachelor" class="radio"><span>Bachelor</span></label>
-            <input type="radio" class="input" value="master" id="master" name="bama" />
-            <label for="master" class="radio"><span>Master</span></label>
+            <input type="radio" class="input" value="Bachelor" id="bachelor" name="bama"/>
+            <label for="bachelor" class="radio"><span>bachelor</span></label>
+            <input type="radio" class="input" value="Master" id="master" name="bama" />
+            <label for="master" class="radio"><span>master</span></label>
            </div>
           <span class="focus-input"></span>
         </div>
@@ -261,7 +261,7 @@
           <div class="question-answer question input validate-input " data-validate = "missing" >
             <input type="radio" class="input" value="international" id="international" name="international"/>
             <label for="international" class="radio"><span>international student</span></label>
-            <input type="radio" class="input" value="national" id="national" name="international" />
+            <input type="radio" class="input" value="deutsch" id="national" name="international" />
             <label for="national" class="radio"><span>german citizen</span></label>
           </div>
           <span class="focus-input"></span>
@@ -270,7 +270,7 @@
         <div class="wrap-input" >
           <span class="label-input">I participate:</span>
           <div class="question-answer question input validate-input " data-validate = "missing" >
-            <input type="radio" class="input" value="offline" id="offline" name="teilnahme"/>
+            <input type="radio" class="input" value="vor Ort" id="offline" name="teilnahme"/>
             <label for="offline" class="radio"><span>in person & digitally</span></label>
             <input type="radio" class="input" value="online" id="online" name="teilnahme" />
             <label for="online" class="radio"><span>only digitally</span></label>
