@@ -15,6 +15,9 @@ if (isset($_GET["error"]) && is_numeric($_GET["error"])) {
         case 2:
             $message = "Your age can't be negative!";
             break;
+        case 3:
+            $message = "You successfully signed up for the O-Phase, but we weren't able to send a confirmation email";
+            break;
     }
 
 }
