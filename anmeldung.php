@@ -15,14 +15,14 @@
       <form class="validate-form" action="<?= dirname($_SERVER['PHP_SELF'])?>/inc/action_page.php" method="post">
         <div class="wide">
           <h2>Welcher O-Phasen-Typ bist du?</h2>
-          <p class="fragebogen">Dieser Fragebogen dient dazu, dich etwas besser kennenzulernen, damit wir dich einer geeigneten <a target="_blank" href="<?= dirname($_SERVER['PHP_SELF'])?>/faq">O-Phasen-Gruppe</a> zuweisen können. Denn bestenfalls findest du bereits in der O-Phase Freunde und Lernpartner für das gesamte Studium. Und besonders jetzt unter Corona Bedingungen, wird es am Anfang sehr schwierig werden, Kommilitonen außerhalb der O-Phase kennenzulernen. Die Daten dienen ausschließlich zur Einteilung dieser Gruppen und werden selbstverständlich vertraulich behandelt und zeitnah gelöscht. Wenn dir die Fragen zu persönlich sind oder du aus anderen Gründen nicht auf die Fragen antworten möchtest, kannst du die Felder auch einfach leer lassen. <br> <br> Mehrfache Auwahl ist möglich.</p>
+          <p class="fragebogen">Dieser Fragebogen dient dazu, dich etwas besser kennenzulernen, damit wir dich einer geeigneten <a target="_blank" href="<?= dirname($_SERVER['PHP_SELF'])?>/faq">O-Phasen-Gruppe</a> zuweisen können. Denn bestenfalls findest du bereits in der O-Phase Freunde und Lernpartner für das gesamte Studium. Und besonders jetzt unter Corona Bedingungen, wird es am Anfang sehr schwierig werden, Kommilitonen außerhalb der O-Phase kennenzulernen. Die Daten dienen ausschließlich zur Einteilung dieser Gruppen und werden selbstverständlich vertraulich behandelt und zeitnah gelöscht. Wenn dir die Fragen zu persönlich sind oder du aus anderen Gründen nicht auf die Fragen antworten möchtest, kannst du die Felder auch einfach leer lassen. <br> <br> Mehrfache Auswahl ist möglich.</p>
         </div>
 
 
         <div class="wide">
 
           <div class="wrap-input" >
-          <span style="display: block; padding-bottom: 15px;">Der perfekte Freitagabend für mich ist ... :</span>
+          <span class="checkbox-title">Der perfekte Freitagabend für mich ist ... :</span>
           <label class="mycheckbox">mit Freunden im Park
             <input type="checkbox" name="freitagabend[]" value="park">
             <span class="checkmark"></span>
@@ -63,7 +63,7 @@
           </div>
 
           <div class="wrap-input" >
-          <span style="display: block; padding-bottom: 15px;">Wie gehst du eine schwierige Aufgabe an?</span>
+          <span class="checkbox-title">Wie gehst du eine schwierige Aufgabe an?</span>
           <label class="mycheckbox"> das wird sich schon irgendwie ergeben
             <input type="checkbox" name="problem[]" value="irgendwie">
             <span class="checkmark"></span>
@@ -91,7 +91,7 @@
           </div>
 
           <div class="wrap-input" >
-          <span style="display: block; padding-bottom: 15px;">Zu welcher Tageszeit bist du am produktivsten?</span>
+          <span class="checkbox-title">Zu welcher Tageszeit bist du am produktivsten?</span>
           <label class="mycheckbox"> morgens
             <input type="checkbox" name="produktiv[]" value="morgens">
             <span class="checkmark"></span>
@@ -116,7 +116,7 @@
           </div>
 
           <div class="wrap-input" >
-          <span style="display: block; padding-bottom: 15px;">Hattest du dieses Jahr Abitur oder hast du zwischen Schule und jetzt noch etwas anderes gemacht?</span>
+          <span class="checkbox-title">Hattest du dieses Jahr Abitur oder hast du zwischen Schule und jetzt noch etwas anderes gemacht?</span>
           <label class="mycheckbox"> dieses Jahr Abi
             <input type="checkbox" name="gapyear[]" value="abidirekt">
             <span class="checkmark"></span>
@@ -144,7 +144,7 @@
           </div>
 
           <div class="wrap-input" >
-          <span style="display: block; padding-bottom: 15px;">Bisheriges Engagement im Ehrenamt oder Organisationen und wenn ja wo?</span>
+          <span class="checkbox-title">Bisheriges Engagement im Ehrenamt oder Organisationen und wenn ja wo?</span>
           <label class="mycheckbox"> nicht wirklich
             <input type="checkbox" name="engagement[]" value="keins">
             <span class="checkmark"></span>
@@ -153,7 +153,7 @@
             <input type="checkbox" name="engagement[]" value="Schule">
             <span class="checkmark"></span>
           </label>
-          <label class="mycheckbox"> Verein
+          <label class="mycheckbox"> (Sport-)Verein
             <input type="checkbox" name="engagement[]" value="verein">
             <span class="checkmark"></span>
           </label>
@@ -176,13 +176,13 @@
           </div>
 
            <div class="wrap-input" >
-          <span style="display: block; padding-bottom: 15px;">Was ist deine Motivation Physik/ Meteorologie/ Geophysik/ Lehramt zu studieren?</span>
+          <span class="checkbox-title">Was ist deine Motivation Physik/ Meteorologie/ Geophysik/ Lehramt zu studieren?</span>
           <textarea class="input" name="warumphysik" placeholder="(bspw. die Welt verstehen/ verbessern, Herausforderung suchen...)"></textarea>
           <span class="focus-input"></span>
           </div>
           <div class="wrap-input" >
           <span style="display: block; padding-bottom: 15px;">Was wünschst du dir von der O-Phase?</span>
-          <textarea class="input" name="wuensche" placeholder="(bspw. Freunde finden, Informationen, Party...)"></textarea>
+          <textarea class="input" name="wuensche" placeholder="(bspw. Freunde finden, viele Informationen, Party...)"></textarea>
           <span class="focus-input"></span>
           </div>
 
@@ -196,32 +196,36 @@
            <p> Diese Daten dienen zum einen ebenfalls dazu, dich einer geeigneten Gruppe zuzuweisen und zum anderen benötigen wir die Daten aufgrund der <a href="https://www.baden-wuerttemberg.de/de/service/aktuelle-infos-zu-corona/aktuelle-corona-verordnung-des-landes-baden-wuerttemberg/">Corona-Verordnung</a> (siehe §6). Die persönlichen Daten werden vertraulich behandelt und zeitnah gelöscht. </p>
         </div>
         
+
         <div class="contact-form ">
+
+        <div style="width: 100%;"><p class="right">* Pflichtfelder</p></div>
+
         <div class="wrap-input validate-input" data-validate="fehlt">
-          <span class="label-input">Vorname:</span>
+          <span class="label-input">Vorname*:</span>
           <input class="input" type="text" name="vname"  placeholder="Vornamen eintragen" >
           <span class="focus-input"></span>
         </div>
 
         <div class="wrap-input validate-input" data-validate="fehlt">
-          <span class="label-input">Nachname:</span>
+          <span class="label-input">Nachname*:</span>
           <input class="input" type="text" name="nname"  placeholder="Nachnamen eintragen" >
           <span class="focus-input"></span>
         </div>
 
         <div class="wrap-input validate-input" data-validate = "falsches Format">
-          <span class="label-input">E-Mail:</span>
+          <span class="label-input">E-Mail*:</span>
           <input class="input" type="text" name="email" placeholder="E-Mail Adresse eintragen">
           <span class="focus-input"></span>
         </div>
 
         <div class="wrap-input validate-input" data-validate = "falsches Format">
-          <span class="label-input">Telefonnummer:</span>
+          <span class="label-input">Telefonnummer*:</span>
           <input class="input" type="phone" name="phone" placeholder="Telefonnummer eintragen">
           <span class="focus-input"></span>
         </div>
 
-        <div class="wrap-input validate-input" data-validate = "fehlt">
+        <div class="wrap-input validate-input">
           <span class="label-input">Alter (Jahre):</span>
           <input class="input" type="number" name="age" placeholder="Alter eintragen">
           <span class="focus-input"></span>
@@ -229,7 +233,7 @@
     
 
         <div class="wrap-input" >
-          <span class="label-input">Studiengang:</span>
+          <span class="label-input">Studiengang*:</span>
           <div class="question-answer question input validate-input " data-validate = "fehlt" >
             <input type="radio" class="input" value="Physik" id="physik" name="studiengang"/>
             <label for="physik" class="radio"><span>Physik</span></label>
@@ -245,7 +249,7 @@
         </div>
 
         <div class="wrap-input" >
-          <span class="label-input">BSc/MSc:</span>
+          <span class="label-input">BSc/MSc*:</span>
           <div class="question-answer question input validate-input " data-validate = "fehlt" >
             <input type="radio" class="input" value="Bachelor" id="bachelor" name="bama"/>
             <label for="bachelor" class="radio"><span>Bachelor</span></label>
@@ -256,7 +260,7 @@
         </div>
 
         <div class="wrap-input" >
-          <span class="label-input">Nationalität:</span>
+          <span class="label-input">Nationalität*:</span>
           <div class="question-answer question input validate-input " data-validate = "fehlt" >
             <input type="radio" class="input" value="deutsch" id="national" name="international" />
             <label for="national" class="radio"><span>deutsch</span></label>
@@ -267,9 +271,9 @@
         </div>
 
         <div class="wrap-input" >
-          <span class="label-input">Ich nehme teil:</span>
+          <span class="label-input">Ich nehme teil*:</span>
           <div class="question-answer question input validate-input " data-validate = "fehlt" >
-            <input type="radio" class="input" value="vor Ort" id="offline" name="teilnahme"/>
+            <input type="radio" class="input" value="offline" id="offline" name="teilnahme"/>
             <label for="offline" class="radio"><span>vor Ort & digital</span></label>
             <input type="radio" class="input" value="online" id="online" name="teilnahme" />
             <label for="online" class="radio"><span>nur digital</span></label>
@@ -283,9 +287,10 @@
         
         <div class="wrap-input" >
           <span class="label-input">Kommentar:</span>
-          <textarea class="input" name="message" placeholder="(bspw. Wunschpartner, Beeinträchtigungen, sonstige Informationen...)" rows="2"></textarea>
+          <textarea class="input" name="message" placeholder="(bspw. Wunschpartner, Beeinträchtigungen, sonstiges...)" rows="2"></textarea>
           <span class="focus-input"></span>
         </div>
+        
 
         </div>
         <div class="wide-check">

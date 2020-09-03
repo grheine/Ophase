@@ -117,13 +117,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname
        $mail->setFrom('fachschaft@physik.kit.edu', 'Fachschaft Physik');
        $mail->addAddress($email, $vname);
        $mail->Subject = 'Anmeldung zur O-Phase';
-       $mail->isHTML(TRUE);
-       if (isEnglish()) {
-           $mail->Body = nl2br("Hello $vname,\n\n you successfully signed up to the O-Phase with following data:  \n\n Name: $vname $nname \n E-Mail: $email \n Telefon: $phone \n Subject: $studiengang $bama \n Nationality:  $international \n Participation: $teilnahme \n Message: $message \n\n If there are any questions, feel free to mail us. \n We look forward to meet you! \n\n With best regards \n Greta and Alex " );
-       } else {
-           $mail->Body = nl2br("Hallo $vname,\n\n du hast dich erfolgreich zur O-Phase mit folgenden Daten angemeldet:  \n\n Name: $vname $nname \n E-Mail: $email \n Telefonnummer: $phone \n Studiengang: $studiengang $bama \n Nationalität:  $international \n Teilnahme: $teilnahme \n Nachricht: $message \n\n Falls du noch Fragen hast, kannst du uns natürlich gerne schreiben. \n Wir freuen uns auf dich! \n\n Viele Grüße \n Greta und Alex " );
-       }
-       $mail->AltBody = 'There is a great disturbance in the Force.';
+       $mail->Body = "Hallo $vname,\n\n du hast dich erfolgreich zur O-Phase mit folgenden Daten angemeldet:  \n\n Name: $vname $nname \n E-Mail: $email \n Telefonnummer: $phone \n Studiengang: $studiengang $bama \n Nationalität:  $international \n Teilnahme: $teilnahme \n Nachricht: $message \n\n Falls du noch Fragen hast, kannst du uns natürlich gerne schreiben. \n Wir freuen uns auf dich! \n\n Viele Grüße \n Greta und Alex \n\n \n\n ######################### \n\n Hello $vname,\n\n you successfully registered for the O-Phase with the following data:  \n\n name: $vname $nname \n eMail: $email \n phone: $phone \n subject: $studiengang $bama \n nationality:  $international \n participation: $teilnahme \n message: $message \n\n If you have further questions, feel free to contact us. \n We look forward to meet you! \n\n Best wishes \n Greta und Alex  ";
+
 
        /* SMTP parameters. */
        $mail->isSMTP();
@@ -135,15 +130,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname
     }
     catch (Exception $e)
     {
-        error_log("PHP-Mail Exeception: ".$e->errorMessage());
-        header("Location: ../" . getEnglishPrefix() . "error.php?error=3 ");
-        exit();
+       echo $e->errorMessage();
     }
     catch (\Exception $e)
     {
-        error_log("PHP-Mail Exeception: ".$e->errorMessage());
-        header("Location: ../" . getEnglishPrefix() . "error.php?error=3 ");
-        exit();
+       echo $e->getMessage();
     }
 
 
