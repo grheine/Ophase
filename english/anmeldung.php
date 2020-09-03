@@ -265,7 +265,7 @@
           <span class="focus-input"></span>
         </div>
 
-        <div class="wrap-input validate-input" data-validate = "missing">
+        <div class="wrap-input">
           <span class="label-input">Age (years):</span>
           <input class="input" type="number" name="age" placeholder="Please insert your age">
           <span class="focus-input"></span>

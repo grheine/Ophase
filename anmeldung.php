@@ -268,7 +268,7 @@
           <span class="focus-input"></span>
         </div>
 
-        <div class="wrap-input validate-input">
+        <div class="wrap-input">
           <span class="label-input">Alter (Jahre):</span>
           <input class="input" type="number" name="age" placeholder="Alter eintragen">
           <span class="focus-input"></span>
