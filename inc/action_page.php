@@ -118,7 +118,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname
        $mail->addAddress($email, $vname);
        $mail->Subject = 'Anmeldung zur O-Phase';
        $mail->isHTML(TRUE);
-       $mail->Body = nl2br("Hallo $vname,\n\n du hast dich erfolgreich zur O-Phase mit folgenden Daten angemeldet:  \n\n Name: $vname $nname \n E-Mail: $email \n Telefonnummer: $phone \n Studiengang: $studiengang $bama \n Nationalität:  $international \n Teilnahme: $teilnahme \n Nachricht: $message \n\n Falls du noch Fragen hast, kannst du uns natürlich gerne schreiben. \n Wir freuen uns auf dich! \n\n Viele Grüße \n Greta und Alex " );
+       if (isEnglish()) {
+           $mail->Body = nl2br("Hello $vname,\n\n you successfully signed up to the O-Phase with following data:  \n\n Name: $vname $nname \n E-Mail: $email \n Telefon: $phone \n Subject: $studiengang $bama \n Nationality:  $international \n Participation: $teilnahme \n Message: $message \n\n If there are any questions, feel free to mail us. \n We look forward to meet you! \n\n With best regards \n Greta and Alex " );
+       } else {
+           $mail->Body = nl2br("Hallo $vname,\n\n du hast dich erfolgreich zur O-Phase mit folgenden Daten angemeldet:  \n\n Name: $vname $nname \n E-Mail: $email \n Telefonnummer: $phone \n Studiengang: $studiengang $bama \n Nationalität:  $international \n Teilnahme: $teilnahme \n Nachricht: $message \n\n Falls du noch Fragen hast, kannst du uns natürlich gerne schreiben. \n Wir freuen uns auf dich! \n\n Viele Grüße \n Greta und Alex " );
+       }
        $mail->AltBody = 'There is a great disturbance in the Force.';
 
        /* SMTP parameters. */
@@ -131,11 +135,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname
     }
     catch (Exception $e)
     {
-       echo $e->errorMessage();
+        error_log("PHP-Mail Exeception: ".$e->errorMessage());
+        header("Location: ../" . getEnglishPrefix() . "error.php?error=3 ");
+        exit();
     }
     catch (\Exception $e)
     {
-       echo $e->getMessage();
+        error_log("PHP-Mail Exeception: ".$e->errorMessage());
+        header("Location: ../" . getEnglishPrefix() . "error.php?error=3 ");
+        exit();
     }
 
 

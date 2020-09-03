@@ -15,6 +15,9 @@ if (isset($_GET["error"]) && is_numeric($_GET["error"])) {
         case 2:
             $message = "Dein Alter kann nicht negativ sein!";
             break;
+        case 3:
+            $message = "Deine Anmeldung war erfolgreich, aber es konnte keine Bestätigungsemail verschickt werden!";
+            break;
     }
 
 }
