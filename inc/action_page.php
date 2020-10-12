@@ -145,6 +145,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vname"], $_POST["nname
        $mail->Host = 'smarthost.kit.edu';
        $mail->SMTPAuth = False;
        $mail->SMTPSecure = 'tls';
+       // Disable certificate verification, because smarthost cert is invalid.
+       // SMTPOptions should be removed once the cert error is fixed on SCC side.
+       $mail->SMTPOptions = array(
+           'ssl' => array(
+               'verify_peer' => false,
+               'verify_peer_name' => false,
+               'allow_self_signed' => true
+           )
+       );
        $mail->Port = 25;
        $mail->send();
     }
