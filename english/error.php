@@ -10,13 +10,16 @@ if (isset($_GET["error"]) && is_numeric($_GET["error"])) {
 
     switch ($error) {
         case 1:
+            $message_title = "Oops!";
             $message = "Your provided text is exceeding the limit of 4000 characters.</br>Please keep it short!";
             break;
         case 2:
+            $message_title = "Oops!";
             $message = "Your age can't be negative!";
             break;
         case 3:
-            $message = "You successfully signed up for the O-Phase, but we weren't able to send a confirmation email";
+            $message_title = "Congratulations!";
+            $message = "You successfully signed up for the O-Phase! We are currently not able to send you an automatic confirmation mail because of server problems. When and where exactly you have to be on Monday, we will tell you via email shortly before the start of the O-Phase.  ";
             break;
     }
 
@@ -38,7 +41,7 @@ if (isset($_GET["error"]) && is_numeric($_GET["error"])) {
         ?>
 
         <div class="success">
-            <h2>Oops!</h2>
+            <h2><?php echo $message_title; ?></h2>
             <p><?php echo $message;?></p>
             <a href="<?= dirname($_SERVER['PHP_SELF'])?>/anmeldung">back to registration</a>
 

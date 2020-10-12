@@ -225,7 +225,7 @@ iframe {
 
 
 .wrap-contact {
-  width: 670px;
+  max-width: 870px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -670,7 +670,7 @@ display: none;
 
 /*------------------------------------------------------------------
 [ Form Table ]*/
-
+/*
 .form-table {
   width: 100%;
 }
@@ -703,7 +703,7 @@ th {
   padding: .75rem;
   vertical-align: top;
   border-top: 1px solid #e9ecef;
-}
+}*/
 
 
 /*------------------------------------------------------------------
@@ -862,7 +862,7 @@ th {
 }
 
 .language {
-  max-width: 670px;
+  max-width: 870px;
   overflow: hidden;
   position: relative;
   padding: 10px 0;
@@ -1048,9 +1048,9 @@ th {
     padding: 50px 20px 0 20px;
   }
 
-  .form-table {
+  /*.form-table {
     width: 500px;
-  }
+  }*/
 
   .mycheckbox {
     width: 100%;
@@ -1100,3 +1100,6 @@ th {
     font-size: 11.5px;
   }
 }
+
+
+
