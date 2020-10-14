@@ -16,19 +16,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["maintext"])) {
 
     $mail = new PHPMailer(TRUE);
     try {
-       $mail->CharSet = 'UTF-8';   
-       $mail->setFrom('admins@fachschaft.physik.kit.edu', 'Fachschaft Physik');
-       $mail->addAddress('vertrauenspersonen-ophase@fachschaft.physik.kit.edu', 'Vertrauenspersonen O-Phase');
-       $mail->Subject = "[VERTRAUENSPERSONEN-OPHASE] Feedback from $name";
-       $mail->Body = "text:\n$maintext\n\nname: $name\nemail: $email\nhandy: $phone";
+        $mail->CharSet = 'UTF-8';   
+        $mail->setFrom('admins@fachschaft.physik.kit.edu', 'Fachschaft Physik');
+        $mail->addAddress('vertrauenspersonen-ophase@fachschaft.physik.kit.edu', 'Vertrauenspersonen O-Phase');
+        $mail->Subject = "[VERTRAUENSPERSONEN-OPHASE] Feedback von $name";
+        $mail->Body = "text:\n$maintext\n\nname: $name\nemail: $email\nhandy: $phone";
 
-       /* SMTP parameters. */
-       $mail->isSMTP();
-       $mail->Host = 'smarthost.kit.edu';
-       $mail->SMTPAuth = False;
-       $mail->SMTPSecure = 'tls';
-       $mail->Port = 25;
-       $mail->send();
+        /* SMTP parameters. */
+        $mail->isSMTP();
+        $mail->Host = 'smarthost.kit.edu';
+        $mail->SMTPAuth = False;
+        $mail->SMTPSecure = 'tls';
+        $mail->Port = 25;
+        $mail->send();
     }
     catch (Exception $e)
     {
@@ -46,19 +46,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["maintext"])) {
     if (isset($_POST["email"])) {
       $mail = new PHPMailer(TRUE);
       try {
-         $mail->CharSet = 'UTF-8';   
-         $mail->setFrom('vertrauenspersonen-ophase@fachschaft.physik.kit.edu', 'Fachschaft Physik');
-         $mail->addAddress($email, $name);
-         $mail->Subject = "Thank you for your message!";
-         $mail->Body = "We received your message and will reply as soon as possible. (This Email was generated automatically.)\n\nYour data:\n\ntext:\n$maintext\n\nname: $name\nemail: $email\nhandy: $phone";
+          $mail->CharSet = 'UTF-8';   
+          $mail->setFrom('vertrauenspersonen-ophase@fachschaft.physik.kit.edu', 'Fachschaft Physik');
+          $mail->addAddress($email, $name);
+          if (isEnglish()) {
+              $mail->Subject = "Thank you for your message!";
+              $mail->Body = "We received your message and will reply as soon as possible. (This Email was generated automatically.)\n\nYour data:\n\ntext:\n$maintext\n\nname: $name\nemail: $email\nhandy: $phone";
+          } else {
+              $mail->Subject = "Danke für Deine Nachricht!";
+              $mail->Body = "Wir haben Deine Nachricht erhalten und melden uns sobald wie möglich bei Dir. (Diese Email ist automatisch generiert.)\n\nDeine Angaben:\n\ntext:\n$maintext\n\nname: $name\nemail: $email\nhandy: $phone";
+          }
 
-         /* SMTP parameters. */
-         $mail->isSMTP();
-         $mail->Host = 'smarthost.kit.edu';
-         $mail->SMTPAuth = False;
-         $mail->SMTPSecure = 'tls';
-         $mail->Port = 25;
-         $mail->send();
+          /* SMTP parameters. */
+          $mail->isSMTP();
+          $mail->Host = 'smarthost.kit.edu';
+          $mail->SMTPAuth = False;
+          $mail->SMTPSecure = 'tls';
+          $mail->Port = 25;
+          $mail->send();
       }
       catch (Exception $e)
       {
