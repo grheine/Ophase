@@ -3,7 +3,7 @@
 	<div class="container-contact">
 
 		<div class="fullwidth">
-      <div class="language"><a href="">de</a><p>|</p><a href="<?= dirname($_SERVER['PHP_SELF'])?>/english/success_feedback">en</a></div>
+      <div class="language"><a href="">de</a><p>|</p><a href="<?= dirname($_SERVER['PHP_SELF'])?>/../success_feedback">en</a></div>
     </div>
 		<div class="wrap-contact">
 			<?php 
