@@ -3,10 +3,3 @@ MultiviewsMatch Any
 
 # Deny access to .git etc
 RedirectMatch 404 /\..*
-
-# Deny access to config.php since it might contain database credentials
-<Files "config.php">
-#  Order allow,deny
-#  Deny from all
-  Require all granted
-</Files>

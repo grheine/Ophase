@@ -36,8 +36,6 @@
 
         <div class="contact-form ">
 
-        <div style="width: 100%;"><p class="right">* mandatory</p></div>
-
         <div class="wrap-input">
           <span class="label-input">Name:</span>
           <input class="input" type="text" name="name"  placeholder="Please enter your name" >
@@ -61,7 +59,7 @@
         <div class="wide-check">
           <div class="question-answer question input validate-input " data-validate = "fehlt" >
             <input type="radio" class="input" value="datenschutz" id="datenschutz" name="datenschutz"/>
-            <label for="datenschutz" class="check"><span class="check">Hereby, I confirm the correctness of my entered data and I confirm its storage (also see <a href="https://fachschaft.physik.kit.edu/drupal/content/datenschutzerklärung">our privacy information</a>)</span></label>
+            <label for="datenschutz" class="check"><span class="check">Hereby, I confirm the storage of my entered data (also see <a href="https://fachschaft.physik.kit.edu/drupal/content/datenschutzerklärung">our privacy information</a>).</span></label>
           </div>
           <span class="focus-input"></span>
         
