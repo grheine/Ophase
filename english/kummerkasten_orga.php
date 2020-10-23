@@ -52,6 +52,7 @@
           </div>
           <span class="focus-input"></span>
         
+        <input type="hidden" id="english_version" name="english_version" value="true" />
 
         <div class="container-contact-form-btn">
           <button class="contact-form-btn">
