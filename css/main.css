@@ -1116,11 +1116,14 @@ th {
 
 table tr td.left-td {
   width: 20%;
-  padding-right: 10px;
+  padding-right: 40px;
+  padding-top: 5px;
+  position: absolute;
 }
 
 table tr td.left-td img {
   width: 100%;
+  border-radius: 10px;
 }
 
 table tr td.right-td {
