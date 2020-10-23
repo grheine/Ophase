@@ -46,6 +46,20 @@
     }
  ?>
     <?php TableOfContents(3); ?>
+    <h2> <a name="inderophase"> </a> In the O-Phase </h2>
+    <h3> <a name="zoom"> </a> Zoom </h3>
+    <p> We use the Zoom program as a replacement for the large lecture hall events with all first-time students. This is also used for broadcasting the lectures and if you haven't already got to know it in class, you can make the first contact with this program in the O-Phase before the first lecture. Various details on the use of zoom and assistance can be found on this <a href="https://www.zml.kit.edu/zoom-studierende.php"> KIT page </a>. There you will also find <a href="https://www.zml.kit.edu/downloads/Anleitung_Zoom-Nutzen_Studierende.pdf"> instructions for students </a> </p>
+    
+    <h3> <a name="discord"> </a> Discord </h3>
+    <p> Since we unfortunately do not have enough Zoom licenses to also offer the group times via Zoom, we decided on Discord. We have already created various rooms here that you can join. It is best to download the Discord program before the O-Phase, as it runs more smoothly than the web app. You can find the download link <a href="https://discord.com/download"> here </a>. It is best to get to grips with the program before using it for the first time in the O-Phase, as it is sometimes not entirely intuitive. <br>
+    You can find a good guide to Discord <a href="https://support.discord.com/hc/de/articles/360045138571-Beginner-s-Guide-to-Discord"> here </a>. To put it briefly: the server is divided into speech and text channels (#). You can speak in the voice channels and chat in the text channels. So easy, right?
+    </p>
+
+    <h3> <a name="discord"> </a> I'm bored </h3>
+    <p> If you ever get bored, you can join the public rooms in Discord at any time under the tab "for everyone" and maybe other first-time students or tutors are waiting for you to chat with or play something. Here you will find, for example, various lounge rooms and the Orga Sofa, where one of us organization people can often be found to answer questions.
+    </p>
+
+
     <h2><a name="whatisophase"></a>What is the O-Phase?</h2>
     <p>The orientation phase - O-phase for short - is our information event, which should help you to find your way around the university better. After the welcome ceremony, you will get to know everything you need to know about your studies, the campus, Karlsruhe and you will meet your fellow students in small groups.</p>
     <h3><a name="whatwillilearn"></a>What will I learn in the O-Phase?</h3>

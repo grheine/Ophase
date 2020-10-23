@@ -27,7 +27,7 @@
  
 				Since the number of cases is also increasing rapidly in Karlsruhe, we unfortunately had to switch the O-Phase entirely to digital. We hope that you can still experience a nice O-Phase and make friends for your studies. For this we have thought about a few things how you can get to know fellow students in a playful way in a virtual environment. We wish you a nice and instructive O-Phase! <br>
 				The O-Phase starts on <span class = "thick"> Monday, October 23rd. at 11:00 </span>. The organization team is currently in the high phase of planning and has already drawn up a preliminary schedule for you. <br> <br>
-				Please download the programs <a href="https://zoom.us/download"> Zoom </a> and <a href = "https://discord.com/download before the start of the O-Phase on Monday "> Discord </a> which we will mainly use for presentations and communication. You can find more information about this in the FAQ.
+				Please download the programs <a href="https://zoom.us/download"> Zoom </a> and <a href = "https://discord.com/download"> Discord </a> which we will mainly use for presentations and communication. You can find more information about this in the <a href="<?= dirname($_SERVER['PHP_SELF'])?>/faq">FAQ</a>.
 			</p>
 
 			<img src="../images/zeitplan.png" alt="Zeitplan" class="zeitplan">
