@@ -5,6 +5,9 @@ Require all denied
 <Files action_page.php>
 	Require all granted
 </Files>
+<Files send_feedback_orga.php>
+	Require all granted
+</Files>
 <Files send_feedback.php>
 	Require all granted
 </Files>

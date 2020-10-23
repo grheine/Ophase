@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["maintext"])) {
       $mail = new PHPMailer(TRUE);
       try {
           $mail->CharSet = 'UTF-8';   
-          $mail->setFrom('vertrauenspersonen-ophase@fachschaft.physik.kit.edu', 'Fachschaft Physik');
+          $mail->setFrom('vertrauenspersonen-ophase@fachschaft.physik.kit.edu', 'Fachschaft Physik – Vertrauenspersonen O-Phase');
           $mail->addAddress($email, $name);
           if (isEnglish()) {
               $mail->Subject = "Thank you for your message!";

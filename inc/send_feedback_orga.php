@@ -12,15 +12,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["maintext"])) {
     $maintext = checkInput($_POST["maintext"]);
     $name = checkInput($_POST["name"]);
     $email = checkInput($_POST["email"]);
-    $phone = checkInput($_POST["phone"]);
 
     $mail = new PHPMailer(TRUE);
     try {
         $mail->CharSet = 'UTF-8';   
         $mail->setFrom('admins@fachschaft.physik.kit.edu', 'Fachschaft Physik');
-        $mail->addAddress('ophasenorga@fachschaft.physik.kit.edu', 'Vertrauenspersonen O-Phase');
-        $mail->Subject = "[VERTRAUENSPERSONEN-OPHASE] Feedback von $name";
-        $mail->Body = "text:\n$maintext\n\nname: $name\nemail: $email\nhandy: $phone";
+        $mail->addAddress('ophasenorga@fachschaft.physik.kit.edu', 'O-Phasen-Orga');
+        $mail->Subject = "[OPHASENORGA] Feedback von $name";
+        $mail->Body = "text:\n$maintext\n\nname: $name\nemail: $email";
 
         /* SMTP parameters. */
         $mail->isSMTP();
@@ -47,14 +46,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["maintext"])) {
       $mail = new PHPMailer(TRUE);
       try {
           $mail->CharSet = 'UTF-8';   
-          $mail->setFrom('vertrauenspersonen-ophase@fachschaft.physik.kit.edu', 'Fachschaft Physik');
+          $mail->setFrom('ophasenorga@fachschaft.physik.kit.edu', 'Fachschaft Physik – O-Phasen-Orga');
           $mail->addAddress($email, $name);
           if (isEnglish()) {
               $mail->Subject = "Thank you for your message!";
-              $mail->Body = "We received your message and will reply as soon as possible. (This Email was generated automatically.)\n\nYour data:\n\ntext:\n$maintext\n\nname: $name\nemail: $email\nhandy: $phone";
+              $mail->Body = "We received your message and will reply as soon as possible. (This Email was generated automatically.)\n\nYour data:\n\ntext:\n$maintext\n\nname: $name\nemail: $email";
           } else {
               $mail->Subject = "Danke für Deine Nachricht!";
-              $mail->Body = "Wir haben Deine Nachricht erhalten und melden uns sobald wie möglich bei Dir. (Diese Email ist automatisch generiert.)\n\nDeine Angaben:\n\ntext:\n$maintext\n\nname: $name\nemail: $email\nhandy: $phone";
+              $mail->Body = "Wir haben Deine Nachricht erhalten und melden uns sobald wie möglich bei Dir. (Diese Email ist automatisch generiert.)\n\nDeine Angaben:\n\ntext:\n$maintext\n\nname: $name\nemail: $email";
           }
 
           /* SMTP parameters. */

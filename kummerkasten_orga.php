@@ -26,19 +26,19 @@
 
         <div class="wrap-input validate-input" data-validate="fehlt">
           <span class="label-input">Nachricht:</span>
-          <textarea class="input" name="messagetoorga" placeholder="Deine Nachricht an die Orga"></textarea>
+          <textarea class="input" name="maintext" placeholder="Deine Nachricht an die Orga"></textarea>
           <span class="focus-input"></span>
         </div>  
 
         <div class="wrap-input validate-input" data-validate="fehlt">
           <span class="label-input">Name:</span>
-          <input class="input" type="text" name="nametoorga"  placeholder="Namen eintragen" >
+          <input class="input" type="text" name="name"  placeholder="Namen eintragen" >
           <span class="focus-input"></span>
         </div>
 
         <div class="wrap-input validate-input" data-validate="fehlt">
           <span class="label-input">E-Mail:</span>
-          <input class="input" type="text" name="emailtoorga" placeholder="E-Mail Adresse eintragen">
+          <input class="input" type="text" name="email" placeholder="E-Mail Adresse eintragen">
           <span class="focus-input"></span>
         </div>
 
