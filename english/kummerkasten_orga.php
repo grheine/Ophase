@@ -25,19 +25,19 @@
 
         <div class="contact-form ">
 
-        <div class="wrap-input validate-input" data-validate="fehlt">
+        <div class="wrap-input validate-input" data-validate="missing">
           <span class="label-input">Message:</span>
           <textarea class="input" name="maintext" placeholder="Your message to the team"></textarea>
           <span class="focus-input"></span>
         </div>  
 
-        <div class="wrap-input validate-input" data-validate="fehlt">
+        <div class="wrap-input validate-input" data-validate="missing">
           <span class="label-input">Name:</span>
           <input class="input" type="text" name="name"  placeholder="Please insert your name" >
           <span class="focus-input"></span>
         </div>
 
-        <div class="wrap-input validate-input" data-validate="fehlt">
+        <div class="wrap-input validate-input" data-validate="missing">
           <span class="label-input">Email:</span>
           <input class="input" type="text" name="email" placeholder="Please insert your email">
           <span class="focus-input"></span>
@@ -46,7 +46,7 @@
 
         </div>
         <div class="wide-check">
-          <div class="question-answer question input validate-input " data-validate = "fehlt" >
+          <div class="question-answer question input validate-input " data-validate = "missing" >
             <input type="radio" class="input" value="datenschutz" id="datenschutz" name="datenschutz"/>
             <label for="datenschutz" class="check"><span class="check"> Herewith, I confirm the correctness of my entered data and I confirm the storing of those (also see <a href="https://fachschaft.physik.kit.edu/drupal/content/datenschutzerklärung">privacy informations</a>)</span></label>
           </div>
