@@ -1,7 +1,7 @@
 <?php
 
 // Define the default error message
-$message = "Some error occurred while you tried to register. Please try again!";
+$message = "Some error occurred while you tried to submit feedback. Please try again!";
 
 // Parse the error code, if one was passed to the system
 if (isset($_GET["error"]) && is_numeric($_GET["error"])) {

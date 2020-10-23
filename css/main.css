@@ -1114,5 +1114,16 @@ th {
   }
 }
 
+table tr td.left-td {
+  width: 20%;
+  padding-right: 10px;
+}
 
+table tr td.left-td img {
+  width: 100%;
+}
 
+table tr td.right-td {
+  width: 80%;
+  padding-bottom: 30px;
+}
