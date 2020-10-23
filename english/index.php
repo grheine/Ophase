@@ -23,7 +23,7 @@
 				Your Greta and Alex <br> <br> -->
 				
 
-				<span class = "thick"> ATTENTION: Due to the entry into force of the third pandemic level in Baden-Württemberg, we had to completely restructure our O-phase again. You will always find the latest information on this website. </span> <br> <br>
+				<span class = "thick"> ATTENTION: Due to the entry into force of the third pandemic level in Baden-Württemberg, we had to completely restructure our O-Phase again. You will always find the latest information on this website. </span> <br> <br>
  
 				Since the number of cases is also increasing rapidly in Karlsruhe, we unfortunately had to switch the O-Phase entirely to digital. We hope that you can still experience a nice O-Phase and make friends for your studies. For this we have thought about a few things how you can get to know fellow students in a playful way in a virtual environment. We wish you a nice and instructive O-Phase! <br>
 				The O-Phase starts on <span class = "thick"> Monday, October 23rd. at 11:00 </span>. The organization team is currently in the high phase of planning and has already drawn up a preliminary schedule for you. <br> <br>

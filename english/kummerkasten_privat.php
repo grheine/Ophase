@@ -12,7 +12,7 @@
       ?>
 
 
-        <form class="validate-form" action="<?= dirname($_SERVER['PHP_SELF'])?>/inc/send_feedback.php" method="post">
+        <form class="validate-form" action="<?= dirname($_SERVER['PHP_SELF'])?>/../inc/send_feedback.php" method="post">
         <div class="wide">
           <h2>Private problems and questions</h2>
           <p>Do you have a personal problems or feel uncomfortable for any reason about the O-Phase and want to confide in someone? Then you can contact our confidants here. This can also be done anonymously if you prefer. In addition, our confidants will introduce themselves personally below so that you know who you are actually dealing with.
@@ -25,7 +25,7 @@
           <div class="wrap-input">
           <div style="width: 100%;"><p class="right"></p></div>
           <span class="checkbox-title">Your Message:</span>
-          <textarea class="input" name="maintext" placeholder="">What is on your mind?</textarea>
+          <textarea class="input" name="maintext" placeholder="What is on your mind?"></textarea>
           <span class="focus-input"></span>
           </div>
         </div>

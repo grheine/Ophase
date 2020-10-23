@@ -12,7 +12,7 @@
       ?>
 
 
-      <form class="validate-form" action="<?= dirname($_SERVER['PHP_SELF'])?>/inc/send_feedback_orga.php" method="post">
+      <form class="validate-form" action="<?= dirname($_SERVER['PHP_SELF'])?>/../inc/send_feedback_orga.php" method="post">
         <div class="wide">
 
           <h2> Organizational questions and feedback </h2>
