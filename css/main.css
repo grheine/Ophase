@@ -287,6 +287,8 @@ iframe {
 }
 
 
+
+
 /*==================================================================
 [ Form ]*/
 
@@ -318,6 +320,17 @@ iframe {
 
 .wide h2{
   padding-top: 20px;
+}
+
+/*==================================================================
+[ Zeitplan  ]*/
+
+.zeitplan {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  margin:  40px auto 70px auto;
 }
 
 
@@ -826,7 +839,7 @@ th {
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;

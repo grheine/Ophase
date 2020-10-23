@@ -1,8 +1,8 @@
 <div class="contact-form-title" style="background-image: url(../images/schloss.jpg);">        
   <div class="topnav"  id="myTopnav">
     <a class="<?php if ($title == "Welcome!") {echo(active);}; ?>" href="<?= dirname($_SERVER['PHP_SELF'])?>/">O-Phase</a>
-    <a class="<?php if ($title == "Registration") {echo(active);}; ?>" href="<?= dirname($_SERVER['PHP_SELF'])?>/anmeldung">Registration</a>
-    <a class="<?php if ($title == "Leave Feedback") {echo(active);}; ?>" href="<?= dirname($_SERVER['PHP_SELF'])?>/kummerkasten">Leave Feedback</a>
+    <a class="<?php if ($title == "Program!") {echo(active);}; ?>" href="<?= dirname($_SERVER['PHP_SELF'])?>/">Program</a>
+    <a class="<?php if ($title == "Leave Feedback") {echo(active);}; ?>" href="<?= dirname($_SERVER['PHP_SELF'])?>/kummerkasten">Feedback</a>
     <a class="<?php if ($title == "FAQ") {echo(active);}; ?>" href="<?= dirname($_SERVER['PHP_SELF'])?>/faq">FAQ</a>
     <a class="<?php if ($title == "Contact") {echo(active);}; ?>" href="https://fachschaft.physik.kit.edu/drupal/content/kontakt" target="_blank">Contact</a>
     <a class="right" href="https://fachschaft.physik.kit.edu/drupal/" target="_blank">Fachschaft Physik</a>

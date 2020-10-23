@@ -47,23 +47,37 @@
  ?>
     <?php TableOfContents(3); ?>
 
+    <h2><a name="inderophase"></a>In der O-Phase</h2>
+    <h3><a name="zoom"></a>Zoom</h3>
+    <p> Als Ersatz für die großen Hörsaalveranstaltungen mit allen Erstis verwenden wir das Programm Zoom. Dieses wird auch für das Übertragen der Vorlesungen benutzt und falls ihr es nicht eh bereits im Unterricht kennengelernt habt, könnt ihr so in der O-Phase den ersten Kontakt zu diesem Programm schon vor der ersten Vorlesung erstellen. Diverse Details zur Nutzung von Zoom und Hilfestellungen sind auf dieser <a href="https://www.zml.kit.edu/zoom-studierende.php">KIT Seite</a> zu finden. Dort findet ihr auch <a href="https://www.zml.kit.edu/downloads/Anleitung_Zoom-Nutzung_Studierende.pdf">Anleitungen für Studierende</a>  </p>
+    
+    <h3><a name="discord"></a>Discord</h3>
+    <p>Da wir leider nicht genügend Zoom Lizenzen haben, um beispielsweise auch die Gruppenzeiten über Zoom anzubieten, haben wir uns für Discord entschieden. Hier haben wir bereits verschiedene Räume erstellt, denen ihr beitreten könnt. Ladet euch am besten noch vor der O-Phase das Discord Programm herunter, da dieses flüssiger läuft als die Web-App. Den Download-Link findet ihr <a href="https://discord.com/download">hier</a>. Setzt euch am besten auch noch vor der ersten Nutzung in der O-Phase mit dem Programm auseinander, da es teilweise nicht gänzlich intuitiv ist. <br>
+    Eine gute Anleitung zu Discord findet ihr <a href="https://support.discord.com/hc/de/articles/360045138571-Beginner-s-Guide-to-Discord">hier</a>. Um es kurz auszudrücken: der Server ist aufgeteilt in Sprach- und Textkanäle (#). In den Sprachkanälen könnt ihr sprechen und in den Textkanälen chatten. Also ganz einfach oder? 
+    </p>
+
+    <h3><a name="discord"></a>Mir ist langweilig</h3>
+    <p>Wenn dir mal langweilig sein sollte, dann kannst du jederzeit den öffentlichen Räumen in Discord unter dem Reiter "für alle" beitreten und vielleicht warten da ja schon andere Erstis oder Tutoren auf dich, mit denen du quatschen oder was zocken kannst. Hier findest du beispielsweise verschiedene Lounge-Räume und das Orga-Sofa, wo häufig einer von uns Orga-Leuten anzutreffen ist, um Fragen zu beantworten. 
+    </p>
+    
+
     <h2><a name="whatisophase"></a>Was ist die O-Phase?</h2>
     <p>Die Orientierungsphase – kurz O-Phase – ist unsere Infoveranstaltung, die dir helfen soll, dich besser an der Uni zurechtzufinden. Nach unserer Begrüßung lernst du in kleinen Gruppen dein Studium, Karlsruhe, sowie Ansprechpartner und Freunde für dein Studium kennen.</p>
     <h3><a name="lerneninophase"></a>Was lerne ich alles in der O-Phase?</h3>
     <p>Wir wollen natürlich nicht alles vorwegnehmen, das wäre ja langweilig. Aber ein paar Dinge können wir schonmal verraten. Wir beantworten Fragen, wie "Was muss ich für Vorlesungen belegen? Wie stelle ich meinen Stundenplan zusammen? Wie finde ich mich zurecht im Website-Dschungel des KIT? Wo gibts das beste Mittagessen? Wo kann ich günstig drucken? Was kann man an der Uni außer Studieren noch machen?" und viele mehr.  </p>
     <h3><a name="ogruppe"></a>Was ist die O-Phasen-Gruppe?</h3>
-    <p>Deine O-Phasen-Gruppe ist eine Kleingruppe von bis zu 15 Erstsemestlern – oder kurz Erstis –, die von erfahrenen Studenten (Tutoren) aus höheren Semestern angeleitet wird. Die meiste Zeit verbringst du in dieser Gruppe und vor allem jetzt unter Corona Bedingungen findet die O-Phase ausschließlich in diesen Kleingruppen statt. D.h. du wirst keinen physischen Kontakt zu anderen O-Phasengruppen haben. Während der Gruppenzeiten zeigen dir deine Tutoren beispielsweise, wie man ein Buch in der Bibliothek ausleiht oder wo man am besten Mittagessen kann und natürlich vieles mehr. </p>
+    <p>Deine O-Phasen-Gruppe ist eine Kleingruppe von bis zu 15 Erstsemestlern – oder kurz Erstis –, die von erfahrenen Studenten (Tutoren) aus höheren Semestern angeleitet wird. Die meiste Zeit verbringst du in dieser Gruppe. Während der Gruppenzeiten zeigen dir deine Tutoren beispielsweise, wie man ein Buch in der Bibliothek ausleiht oder wie man seinen Stundenplan erstellt und natürlich vieles mehr. </p>
     <h3><a name="nichtverpassen"></a>Was sollte ich nicht verpassen?</h3>
     <p>Alles :)
     Natürlich empfehlen wir dir, am gesamten Programm teilzunehmen. Falls du das nicht schaffst, solltest du auf jeden Fall an der Prüfungsordnung- und Nebenfachvorstellung teilnehmen. Solltest du diese Veranstaltungen auch verpassen, kannst du dich per <a href="mailto:fachschaft@physik.kit.edu">Mail</a> bei uns melden, damit du die wichtigen Informationen trotzdem erhältst.</p>
 
     <h2><a name="corona"></a>Corona</h2>
     <h3><a name="gehtdas"></a>O-Phase – geht das überhaupt?</h3>
-    <p>Ja! Jedenfalls versuchen wir, die O-Phase so normal wie möglich zu gestalten. Das heißt, du verbringst die gesamte Woche mit deiner O-Phasengruppe angeleitet von 2-3 Tutoren aus höheren Semestern. Natürlich müssen wir das aktuelle Infektionsgeschehen und die gesetzlichen Vorgaben beobachten, planen aber zunächst mit Gruppengrößen von bis zu 15 Personen. Damit du und deine Kommilitonen möglichst gut charakterlich zusammenpasst, ist es wichtig, dass du den kleinen Persönlichkeitstest am Anfang der Anmeldung machst. So können wir versuchen, die Gruppen möglichst homogen einzuteilen, was Wünsche und Interessen betrifft.</p>
-    <h3><a name="teilnehmen"></a>Warum sollte ich präsent an der O-Phase teilnehmen? </h3>
-    <p>Um es kurz zu sagen, das Physikstudium ist im Alleingang so gut wie unmöglich zu meistern. Besonders bei den ersten Übungsblättern wirst du feststellen, dass diese alleine schlicht nicht lösbar sind – egal wie gut du in der Schule warst. Die Physik und das physikalische Denken leben vom regen Austausch von Ideen und seien wir mal ehrlich, gemeinsam macht das Lösen von schwierigen Problemen einfach viel mehr Spaß. Daher ist es sehr wichtig, dass du zu Beginn des Studiums Kommilitonen kennenlernst und eine Lerngruppe finden kannst. Und dafür ist die O-Phase da. Mit etwas Glück findest du in dieser legendären Woche nicht nur Lernpartner, sondern eventuell sogar Freunde fürs Leben.</p>
+    <p>Ja! Jedenfalls versuchen wir, die O-Phase so normal wie möglich zu gestalten. Wir mussten zwar leider aufgrund der jüngsten Ereignisse komplett auf digital umstellen, allerdings können viele Dinge auch in virtueller Umgebung stattfinden. So wirst du einen Großteil der Woche angeleitet von 2-3 Tutoren (Studenten aus höheren Semestern ) verbringen. Damit du und deine Kommilitonen möglichst gut charakterlich zusammenpasst, ist es wichtig, dass du den kleinen Persönlichkeitstest am Anfang der Anmeldung machst. So können wir versuchen, die Gruppen möglichst homogen einzuteilen, was Wünsche und Interessen betrifft.</p>
+<!--     <h3><a name="teilnehmen"></a>Warum sollte ich präsent an der O-Phase teilnehmen? </h3>
+    <p>Um es kurz zu sagen, das Physikstudium ist im Alleingang so gut wie unmöglich zu meistern. Besonders bei den ersten Übungsblättern wirst du feststellen, dass diese alleine schlicht nicht lösbar sind – egal wie gut du in der Schule warst. Die Physik und das physikalische Denken leben vom regen Austausch von Ideen und seien wir mal ehrlich, gemeinsam macht das Lösen von schwierigen Problemen einfach viel mehr Spaß. Daher ist es sehr wichtig, dass du zu Beginn des Studiums Kommilitonen kennenlernst und eine Lerngruppe finden kannst. Und dafür ist die O-Phase da. Mit etwas Glück findest du in dieser legendären Woche nicht nur Lernpartner, sondern eventuell sogar Freunde fürs Leben.</p> -->
     <h3><a name="nichtda"></a>Ich kann nicht vor Ort teilnehmen – was nun?</h3>
-    <p>Das ist gar kein Problem! Die wichtigen Programmpunkte werden alle digital per Zoom gestreamt. Das heißt du kannst bequem von deinem Sofa aus die wichtigen Dinge mitbekommen. Auch viele Abendprogramm-Punkte versuchen wir digital umzusetzen. Zudem planen wir mit O-Phasengruppen, die rein digital stattfinden.</p>
+    <p>Das ist gar kein Problem! Die O-Phase findet gänzlich digital via Zoom und Discord statt. Das heißt du kannst bequem von deinem Sofa aus die wichtigen Dinge mitbekommen. Auch viele Abendprogramm-Punkte versuchen wir digital umzusetzen. </p>
 
     <h2><a name="studium"></a>Vor dem Studium</h2>
     <h3><a name="addressing"></a>Wie rede ich <em>Sie</em> an?</h3>

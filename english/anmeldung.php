@@ -1,6 +1,47 @@
 <?php include('header.php'); ?>
 
   <div class="container-contact">
+
+    <div class="fullwidth">
+      <div class="language"><a href="<?= dirname($_SERVER['PHP_SELF'])?>/../anmeldung">de</a><p>|</p><a href="">en</a></div>
+    </div>
+    <div class="wrap-contact">
+      <?php 
+      $title = "Anmeldung";
+      include('banner.php'); 
+      ?>
+
+    <div class="success">
+      <h2>Registration is closed! </h2>
+      <p> If you have any questions, feel free to send an email to ophasenorga@fachschaft.physik.kit.edu .</p>
+      <a href="<?= dirname($_SERVER['PHP_SELF'])?>/faq">Further questions? </a>
+
+    </div>  
+    
+
+  </div>
+
+
+<?php include('footer.php'); ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <?php include('header.php'); ?>
+
+  <div class="container-contact">
     <div class="fullwidth">
     <div class="language"><a href="<?= dirname($_SERVER['PHP_SELF'])?>/../anmeldung">de</a><p>|</p><a href="">en</a></div>
   </div>
@@ -356,3 +397,4 @@
       
 <?php include('footer.php'); ?>
 
+ -->

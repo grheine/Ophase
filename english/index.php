@@ -21,26 +21,23 @@
 				That begs the next question: Who are we actually? We are students ourselves who stand up for the interests of the students at the faculty. We also provide advice and information, such as this O-Phase, but also exam collections, examination protocols and much more. You can find out more about our work on our <a target="_blank" href="https://fachschaft.physik.kit.edu/drupal/"> website </a> or ... right: during the O-Phase . <br> <br>
 				See you! <br>
 				Your Greta and Alex <br> <br> -->
-				Hello, <br><br>
-				You want to start studying physics, geophysics, meteorology or teaching in Karlsruhe in the wintersemester
-				2020/2021? Then you are exactly right here! If not, you can find your O-Phase <a href="https://www.asta-kit.de/o-phase">here</a>. <br> <br>
+				
 
-				In order to answer hopefully all of your questions and to make it easier for you to start your studies in general, every year we host a orientation phase for the new students. This year we are of course turning our entire concept upside down in order to	provide you with the most secure but nevertheless instructive and exciting O-Phase. In line with the motto of your first lectures, we have organized your first week at the KIT to be both, <span class="thick">digitally and in person</span>. That means	presence in small groups and digital lectures. In the lectures you will receive the most important information about	your studies while in your small groups questions will be answered and, most importantly, you will get to know	your future fellow students. <br><br>
-				Sounds good! How can I participate? Just register <a href="<?= dirname($_SERVER['PHP_SELF'])?>/anmeldung">here</a> <span class="thick"> by October 19, 2020</span>. If you have urgent questions beforehand you may find the answers in our <a href="<?= dirname($_SERVER['PHP_SELF'])?>/anmeldung">FAQ</a>. 
-				The O-Phase starts on <span class="thick"> Monday, October 26th, 2020</span> and lasts until <span class="thick"> Friday, October 30th, 2020</span>.
-				When and where exactly you have to be on Monday, you will find out shortly before the start of the O-Phase.<br><br>
-
-				That begs the next question: Who are we actually? We are students ourselves who stand up for the interests
-				of the students at the faculty. We also provide advice and information, such as this O-Phase, but also
-				exam collections, examination protocols and much more. You can find out more about our work on our <a class="right" href="https://fachschaft.physik.kit.edu/drupal/" target="_blank">website</a>	or. . . correct: during the O-Phase.  <br> <br>
-				See you!<br> 
-				Greta Heine and Alex Heidelbach  <br> <br>
-
+				<span class = "thick"> ATTENTION: Due to the entry into force of the third pandemic level in Baden-Württemberg, we had to completely restructure our O-phase again. You will always find the latest information on this website. </span> <br> <br>
+ 
+				Since the number of cases is also increasing rapidly in Karlsruhe, we unfortunately had to switch the O-Phase entirely to digital. We hope that you can still experience a nice O-Phase and make friends for your studies. For this we have thought about a few things how you can get to know fellow students in a playful way in a virtual environment. We wish you a nice and instructive O-Phase! <br>
+				The O-Phase starts on <span class = "thick"> Monday, October 23rd. at 11:00 </span>. The organization team is currently in the high phase of planning and has already drawn up a preliminary schedule for you. <br> <br>
+				Please download the programs <a href="https://zoom.us/download"> Zoom </a> and <a href = "https://discord.com/download before the start of the O-Phase on Monday "> Discord </a> which we will mainly use for presentations and communication. You can find more information about this in the FAQ.
 			</p>
-			<a href="<?= dirname($_SERVER['PHP_SELF'])?>/anmeldung">
+
+			<img src="../images/zeitplan.png" alt="Zeitplan" class="zeitplan">
+
+
+
+			<a href="<?= dirname($_SERVER['PHP_SELF'])?>/program">
 				<button class="contact-form-btn center">
      <span>
-       Register
+       Program
        <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
      </span>
    	</button>

@@ -1,7 +1,7 @@
 <div class="downnav">
- <a target="_blank" href="https://fachschaft.physik.kit.edu/drupal/content/kontakt">contact</a>
- <a target="_blank" href="https://fachschaft.physik.kit.edu/drupal/content/impressum">impressum</a>
- <a target="_blank" href="https://fachschaft.physik.kit.edu/drupal/content/datenschutzerklärung">privacy policy</a>
+ <a target="_blank" href="https://fachschaft.physik.kit.edu/drupal/content/kontakt">Contact</a>
+ <a target="_blank" href="https://fachschaft.physik.kit.edu/drupal/content/impressum">Impressum</a>
+ <a target="_blank" href="https://fachschaft.physik.kit.edu/drupal/content/datenschutzerklärung">Privacy Policy</a>
 </div>
 </div>
 </div>
