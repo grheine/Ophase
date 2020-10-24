@@ -4,7 +4,6 @@
     <a class="<?php if ($title == "Programm") {echo(active);}; ?>" href="<?= dirname($_SERVER['PHP_SELF'])?>/programm">Programm</a>
     <a class="<?php if ($title == "Kummerkasten") {echo(active);}; ?>" href="<?= dirname($_SERVER['PHP_SELF'])?>/kummerkasten">Kummerkasten</a>
     <a class="<?php if ($title == "FAQ") {echo(active);}; ?>" href="<?= dirname($_SERVER['PHP_SELF'])?>/faq">FAQ</a>
-    <a class="<?php if ($title == "Kontakt") {echo(active);}; ?>" href="https://fachschaft.physik.kit.edu/drupal/content/kontakt" target="_blank">Kontakt</a>
     <a class="right" href="https://fachschaft.physik.kit.edu/drupal/" target="_blank">Fachschaft Physik</a>
     <a href="javascript:void(0);" class="icon" onclick="hamburgernav()"><i class="fa fa-bars"></i></a>
   </div>

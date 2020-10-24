@@ -86,11 +86,16 @@ h1,h2,h3,h4,h5,h6 {
 
 h2 {
   font-size: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
 }
 
 h3 {
   font-size: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  color: #00876c;
 }
 
 p {
@@ -979,10 +984,21 @@ th {
   padding-bottom: 20px;
 }
 
-.faq h3 {
-  font-size: 17px;
+.faq  h3 {
+  font-size: 20px;
   margin: 10px 0;
 }
+
+.faq  h4 {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.faq h2 {
+  padding-top: 10px;
+}
+
 
 /*------------------------------------------------------------------
 [ Table of Contents ]*/
@@ -1025,6 +1041,66 @@ th {
 {
   margin-left: 2em;
 }
+
+/*------------------------------------------------------------------
+[ Tab Structure ]*/
+
+
+/* Style the tab */
+
+.programm {
+  overflow: hidden;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.programm h3, .programm h4, .programm p {
+  margin-left: 26px;
+  margin-right: 26px;
+}
+
+.tab {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  width: 20%;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  /*border: 1px solid #ccc;*/
+  border-top: none;
+}
+
+.tab button h2 {
+  font-size: 18px;
+}
+
 
 
 /*------------------------------------------------------------------
