@@ -1101,10 +1101,30 @@ th {
   font-size: 18px;
 }
 
+.tab-short {
+  display: none;
+}
+
+
+
 
 
 /*------------------------------------------------------------------
 [ Responsive ]*/
+
+@media (max-width: 700px) {
+  .tab-short {
+    display: block;
+  }
+  .tab-long {
+    display: none;
+  }
+  .programm h3, .programm h4, .programm p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+}
 
 @media (max-width: 576px) {
   .contact-form {
@@ -1144,6 +1164,10 @@ th {
   .mycheckbox {
     width: 100%;
   }
+
+  .zeitplan {
+  margin:  0px auto 20px auto;
+}
 }
 
 @media (max-width: 375px) {
@@ -1153,6 +1177,10 @@ th {
 
   .faq h3 {
     font-size: 13px;
+  }
+
+  .faq .programm h3 {
+    font-size: 20px;
   }
 
   p, a,  .wide p, li {
@@ -1188,6 +1216,10 @@ th {
   .check {
     font-size: 11.5px;
   }
+
+  .tab button {
+  padding: 14px 0px;
+}
 }
 
 table tr td.left-td {
