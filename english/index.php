@@ -30,7 +30,7 @@
 				Please download the programs <a href="https://zoom.us/download"> Zoom </a> and <a href = "https://discord.com/download"> Discord </a> which we will mainly use for presentations and communication. You can find more information about this in the <a href="<?= dirname($_SERVER['PHP_SELF'])?>/faq">FAQ</a>.
 			</p>
 
-			<img src="../images/zeitplan.png" alt="Zeitplan" class="zeitplan">
+			<img src="../images/zeitplan_en.png" alt="Zeitplan" class="zeitplan">
 
 
 

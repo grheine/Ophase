@@ -15,7 +15,7 @@
 
 
 
-		<img src="../images/zeitplan.png" alt="Zeitplan" class="zeitplan">
+		<img src="../images/zeitplan_en.png" alt="Zeitplan" class="zeitplan">
 
 
 	
