@@ -53,6 +53,7 @@
 <h4> When: 8pm - End </h4>
 <h4> Where: Discord </h4>
 <p> On the first evening we will organize a game night for you on the Discord Channel. Here the tutors provide different rooms for games like Among Us, LoL, Skribble and much more. We wish you a lot of fun! </p>
+</div>
 
 <div id="Tuesday" class="tabcontent">
   <br>
