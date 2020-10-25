@@ -129,6 +129,19 @@ ol {
   margin-left: 15px;
 }
 
+.vertrauensperson {
+  margin: 30px 0;
+}
+
+.vertrauensperson img {
+  height: 200px;
+  width: 160px;
+  float: left;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 0 10px 0px 0;
+}
+
 
 /*---------------------------------------------*/
 input {
@@ -190,6 +203,7 @@ button:hover {
 iframe {
 	border: none !important;
 }
+
 
 
 /*//////////////////////////////////////////////////////////////////
