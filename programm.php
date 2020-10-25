@@ -70,7 +70,9 @@
 				<h3>Kultur- und Hochschulgruppen-Vorstellung</h3>
 				<h4>Wann: 16:00-18:00</h4>
 				<h4>Wo: Zoom</h4>
-				<p>Der KIT Campus ist kulturell sehr vielseitig. So gibt es beispielsweise über 70 Kultur- und Hochschulgruppen. Da ist fast für jeden noch etwas dabei, um sich neben dem Studium zu engagieren. Bei der heutigen Vorstellung kann sich natürlich nur ein Bruchteil dieser Gruppen vorstellen. Hierbei haben wir den Fokus auf Gruppen gelegt, die am relevantesten für Physik Studierende sind. Heute lernt Ihr beispielsweise die Lieblingskneipe viele Physiker – Z10 – kennen, die gänzlich ehrenamtlich betrieben wird und gleichzeitig noch ein Kulturzentrum ist, in dem Konzerte, Theaterabende etc. eintrittfrei angeboten werden. Weitere Gruppen, die sich heute vorstellen sind, die Fachschaft selbst, die jDPG, die Nacht der Wissenschaft und viele mehr. Es lohnt sich jedenfalls mal einen Blick über den Tellerrand zu wagen und Kompetenzen auch abseits des Lernschreibtischs zu sammeln.  </p>
+				<p>Der KIT Campus ist kulturell sehr vielseitig. So gibt es beispielsweise über 70 Kultur- und Hochschulgruppen. Da ist fast für jeden noch etwas dabei, um sich neben dem Studium zu engagieren. Bei der heutigen Vorstellung kann sich natürlich nur ein Bruchteil dieser Gruppen vorstellen. Hierbei haben wir den Fokus auf Gruppen gelegt, die am relevantesten für Physik Studierende sind. Heute lernt Ihr beispielsweise die Lieblingskneipe viele Physiker – Z10 – kennen, die gänzlich ehrenamtlich betrieben wird und gleichzeitig noch ein Kulturzentrum ist, in dem Konzerte, Theaterabende etc. eintrittfrei angeboten werden. Weitere Gruppen, die sich heute vorstellen sind, die Fachschaft selbst, die jDPG, die Nacht der Wissenschaft und viele mehr. Es lohnt sich jedenfalls mal einen Blick über den Tellerrand zu wagen und Kompetenzen auch abseits des Lernschreibtischs zu sammeln. <br><br>
+				Liste der Gruppen: AStA, Fachschaft, jDPG, Mentorenprogramm, Nightline, Nacht der Wissenschaft, HoC, Z10, AKK, Physikertheater, Physikerchor, KA-Raceing
+				</p>
 
 				<h3>Physikertheater Aufführung Stream</h3>
 				<h4>Wann: 20:00-23:00</h4>

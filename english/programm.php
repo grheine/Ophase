@@ -70,7 +70,9 @@
 <h3> Presentation of culture and university groups </h3>
 <h4> When: 4pm - 6pm </h4>
 <h4> Where: Zoom </h4>
-<p> The KIT campus is culturally very diverse. There are, for example, over 70 cultural and university groups. There is still something for almost everyone to get involved in alongside their studies. With today's imagination, of course, only a fraction of these groups can imagine. We have focused on groups that are most relevant to physics students. Today, for example, you will get to know many physicists' favorite pub - Z10 - which is run entirely on a voluntary basis and is also a cultural center where concerts, theater evenings etc. are offered free of charge. Other groups that introduce themselves today are the student council itself, the jDPG, the Night of Science and many more. In any case, it is worthwhile to take a look outside the box and to collect skills away from the study desk. </p>
+<p> The KIT campus is culturally very diverse. There are, for example, over 70 cultural and university groups. There is still something for almost everyone to get involved in alongside their studies. With today's imagination, of course, only a fraction of these groups can imagine. We have focused on groups that are most relevant to physics students. Today, for example, you will get to know many physicists' favorite pub - Z10 - which is run entirely on a voluntary basis and is also a cultural center where concerts, theater evenings etc. are offered free of charge. Other groups that introduce themselves today are the student council itself, the jDPG, the Night of Science and many more. In any case, it is worthwhile to take a look outside the box and to collect skills away from the study desk. <br><br>
+List of groups: AStA, Fachschaft, jDPG, Mentorenprogramm, Nightline, Nacht der Wissenschaft, HoC, Z10, AKK, Physikertheater, Physikerchor, KA-Raceing
+ </p>
 
 <h3> Physics theater performance stream </h3>
 <h4> When: 8pm - End </h4>
