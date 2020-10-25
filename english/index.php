@@ -34,7 +34,7 @@
 
 
 
-			<a href="<?= dirname($_SERVER['PHP_SELF'])?>/program">
+			<a href="<?= dirname($_SERVER['PHP_SELF'])?>/programm">
 				<button class="contact-form-btn center">
      <span>
        Program

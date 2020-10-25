@@ -7,7 +7,7 @@
     </div>
 		<div class="wrap-contact">
 			<?php 
-      $title = "Programm";
+      $title = "Program";
       include('banner.php'); 
       ?>
 

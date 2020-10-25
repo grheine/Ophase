@@ -42,17 +42,17 @@
 				<h3>Gruppenzeit</h3>
 				<h4>Wann: 12:00-16:00</h4>
 				<h4>Wo: Discord</h4>
-				<p>In der Gruppenzeit verbringt Ihr Zeit mit Eurer O-Phasen Gruppe. Aufgrund Eurer Angaben bei der Anmeldung haben wir Euch einer passenden Gruppe zugewiesen. Dabei haben wir zum einen darauf geachtet, dass Ihr sowohl von euren Interessen zusammen passt als auch auf Aspekte wie den Studiengang. Während der Gruppenzeiten erzählen euch eure Tutoren vieles über das Studium und bringen euch eventuell den ein oder anderen Trick bei, um das Studium angenehmer zu gestalten. Während der Gruppenzeit werdet ihr auch Gelegenheit zum Mittagessen haben. Wann die Mittagspause stattfindet, könnt Ihr einfach mit euren Tutoren und eurer Gruppe absprechen. Ursprünglich war es geplant, die Gruppenzeiten in Präsenz zu gestalten. Dies mussten wir leider auf digital umstellen, da die Infektionszahlen in den letzten Tagen dramatisch angestiegen sind. Aber keine Sorge! Ihr werdet auch in der virtuellen Umgebung genügend Möglichkeiten haben, eure Kommilitonen kennenzulernen. </p>
+				<p>In der Gruppenzeit verbringt Ihr Zeit mit Eurer O-Phasen Gruppe. Aufgrund Eurer Angaben bei der Anmeldung haben wir Euch einer passenden Gruppe zugewiesen. Dabei haben wir darauf geachtet, dass Ihr sowohl von euren Interessen zusammen passt als auch von den Studiengängen. Während der Gruppenzeiten erzählen euch eure Tutoren vieles über das Studium und bringen euch eventuell den ein oder anderen Trick bei, um das Studium angenehmer zu gestalten. Während der Gruppenzeit werdet ihr auch Gelegenheit zum Mittagessen haben. Wann die Mittagspause stattfindet, könnt Ihr einfach mit euren Tutoren und eurer Gruppe absprechen. Ursprünglich war es geplant, die Gruppenzeiten in Präsenz zu gestalten. Dies mussten wir leider auf digital umstellen, da die Infektionszahlen in den letzten Tagen dramatisch angestiegen sind. Aber keine Sorge! Ihr werdet auch in der virtuellen Umgebung genügend Möglichkeiten haben, eure Kommilitonen kennenzulernen. </p>
 
 				<h3>Rallye</h3>
 				<h4>Wann: 16:00-19:00</h4>
 				<h4>Wo: Discord</h4>
-				<p>Und da kommen wir auch schon zur ersten Gelegenheit, eure Kommilitonen besser kennenzulernen: die Rallye – die zugegebenermaßen dieses Jahr eher ein Quiz ist. Aber nichts destotrotz: hier habt Ihr die Möglichkeit, in 3er Gruppen die Aufgaben der Rallye zu lösen und mit etwas Glück, tolle Preise zu gewinnen. </p>
+				<p>Und da kommen wir auch schon zur ersten Gelegenheit, eure Kommilitonen besser kennenzulernen: die Rallye – die zugegebenermaßen dieses Jahr eher ein Quiz ist. Aber nichts destotrotz: hier habt Ihr die Möglichkeit, in 3er Gruppen die Aufgaben der Rallye zu lösen und mit etwas Glück tolle Preise zu gewinnen. </p>
 
 				<h3>Spieleabend</h3>
 				<h4>Wann: 20:00-Ende</h4>
 				<h4>Wo: Discord</h4>
-				<p>Direkt am ersten Abend veranstalten wir für euch einen Spieleabend und zwar auf dem Discord Channel. Hier stellen die Tutoren verschiedene Räume für Spiele wie Among Us, LoL, Skribble und vieles mehr zur Verfügung. Wir wünschen viel Spaß!</p>
+				<p>Direkt am ersten Abend veranstalten wir für euch einen Spieleabend und zwar auf dem Discord Server. Hier stellen die Tutoren verschiedene Räume für Spiele wie Among Us, LoL, Skribble und vieles mehr zur Verfügung. Wir wünschen viel Spaß!</p>
 </div>
 
 <div id="Dienstag" class="tabcontent">
@@ -70,7 +70,7 @@
 				<h3>Kultur- und Hochschulgruppen-Vorstellung</h3>
 				<h4>Wann: 16:00-18:00</h4>
 				<h4>Wo: Zoom</h4>
-				<p>Der KIT Campus ist kulturell sehr vielseitig. So gibt es beispielsweise über 70 Kultur- und Hochschulgruppen. Da ist fast für jeden noch etwas dabei, um sich neben dem Studium zu engagieren. Bei der heutigen Vorstellung kann sich natürlich nur ein Bruchteil dieser Gruppen vorstellen. Hierbei haben wir den Fokus auf Gruppen gelegt, die am relevantesten für Physik Studierende sind. Heute lernt Ihr beispielsweise die Lieblingskneipe viele Physiker – Z10 – kennen, die gänzlich ehrenamtlich betrieben wird und gleichzeitig noch ein Kulturzentrum ist, in dem Konzerte, Theaterabende etc. eintrittfrei angeboten werden. Weitere Gruppen, die sich heute vorstellen sind, die Fachschaft selbst, die jDPG, die Nacht der Wissenschaft und viele mehr. Es lohnt sich jedenfalls mal einen Blick über den Tellerrand zu wagen und Kompetenzen auch abseits des Lernschreibtischs zu sammeln. <br><br>
+				<p>Der KIT Campus ist kulturell sehr vielseitig. So gibt es beispielsweise über 70 Kultur- und Hochschulgruppen. Da ist fast für jeden noch etwas dabei, um sich neben dem Studium zu engagieren. Bei der heutigen Vorstellung kann sich natürlich nur ein Bruchteil dieser Gruppen vorstellen. Hierbei haben wir den Fokus auf Gruppen gelegt, die am relevantesten für Physik Studierende sind. Heute lernt Ihr beispielsweise die Lieblingskneipe viele Physiker*innen – Z10 – kennen, die gänzlich ehrenamtlich betrieben wird und gleichzeitig noch ein Kulturzentrum ist, in dem Konzerte, Theaterabende etc. eintrittfrei angeboten werden. Weitere Gruppen, die sich heute vorstellen sind, die Fachschaft selbst, die jDPG, die Nacht der Wissenschaft und viele mehr. Es lohnt sich jedenfalls mal einen Blick über den Tellerrand zu wagen und Kompetenzen auch abseits des Lernschreibtischs zu sammeln. <br><br>
 				Liste der Gruppen: AStA, Fachschaft, jDPG, Mentorenprogramm, Nightline, Nacht der Wissenschaft, HoC, Z10, AKK, Physikertheater, Physikerchor, KA-Raceing
 				</p>
 
@@ -90,7 +90,7 @@
 				<h3>Gruppenzeit</h3>
 				<h4>Wann: 13:00-18:00</h4>
 				<h4>Wo: Discord</h4>
-				<p>Heue verbringt Ihr wieder Zeit mit eurer Gruppe. Und auch für heute haben wir uns wieder etwas ganz besonderes ausgedacht, und zwar eine Campusführung per Videostream. Ein paar der Tutoren machen sich hierfür mit Livecam auf den Weg quer über den Campus und erzählen euch wissenswertes und witzige Anekdoten zu dem ein oder anderen Gebäude oder Platz auf dem Campus. </p>
+				<p>Heue verbringt Ihr wieder Zeit mit eurer Gruppe. Und auch für heute haben wir uns wieder etwas ganz besonderes ausgedacht: eine Campusführung per Videostream. Ein paar der Tutoren machen sich hierfür mit Livecam auf den Weg quer über den Campus und erzählen euch wissenswertes und witzige Anekdoten zu dem ein oder anderen Gebäude oder Platz auf dem Campus. </p>
 
 				<h3>Fachschaftssitzung</h3>
 				<h4>Wann: 18:00-19:00</h4>
