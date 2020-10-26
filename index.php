@@ -27,8 +27,8 @@
 
 				<span class="thick"> ACHTUNG: Aufgrund des Inkrafttretens der dritten Pandemiestufe in Baden-Württemberg, mussten wir unsere O-Phase nochmal gänzlich umstruktieren. Auf dieser Website findet ihr immer die neusten Informationen.</span> <br> <br>
  
-				Da die Fallzahlen auch rasant in Karlsruhe steigen mussten wir die O-Phase leider gänzlich auf digital umstellen. Wir hoffen, dass ihr dennoch eine schöne O-Phase erleben und Freundschaften fürs Studium schließen könnt. Hierfür haben wir uns einige Dinge überlegt, wie ihr spielerisch auch im virtuellen Umfeld Kommilitonn*innen kennenlernen könnt. Wir wünschen euch eine schöne und lehrreiche O-Phase!	<br>
-				Los geht es am <span class="thick"> Montag den 23.10. um 11:00 </span>. Das Orga-Team befindet sich gerade in der Hochphase der Planung und hat schon einmal einen vorläufigen Ablaufplan für euch erstellt.  <br> <br>
+				Da die Fallzahlen auch rasant in Karlsruhe steigen mussten wir die O-Phase leider gänzlich auf digital umstellen. Wir hoffen, dass ihr dennoch eine schöne O-Phase erleben und Freundschaften fürs Studium schließen könnt. Hierfür haben wir uns einige Dinge überlegt, wie ihr spielerisch auch im virtuellen Umfeld Kommiliton*innen kennenlernen könnt. Wir wünschen Euch eine schöne und lehrreiche O-Phase!	<br>
+				Los geht es am <span class="thick"> Montag den 23.10. um 11:00 </span>. Das Orga-Team befindet sich gerade in der Hochphase der Planung und hat schon einmal einen vorläufigen Ablaufplan für Euch erstellt.  <br> <br>
 				Bitte ladet euch bereits vor Start der O-Phase am Montag die Programme <a href="https://zoom.us/download">Zoom</a> und <a href="https://discord.com/download">Discord</a> herunter, die wir hauptsächlich für die Präsentationen und Kommunikation verwenden werden. Mehr Informationen findet ihr hierzu auch im FAQ. 
 			</p>
 
