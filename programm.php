@@ -25,9 +25,9 @@
 <div class="programm">
 
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Montag')" id="defaultOpen"><h2 class="tab-long">Montag</h2><h2 class="tab-short">Mo</h2></button>
+  <button class="tablinks" onclick="openCity(event, 'Montag')" ><h2 class="tab-long">Montag</h2><h2 class="tab-short">Mo</h2></button>
   <button class="tablinks" onclick="openCity(event, 'Dienstag')"><h2 class="tab-long">Dienstag</h2><h2 class="tab-short">Di</h2></button>
-  <button class="tablinks" onclick="openCity(event, 'Mittwoch')"><h2 class="tab-long">Mittwoch</h2><h2 class="tab-short">Mi</h2></button>
+  <button class="tablinks" onclick="openCity(event, 'Mittwoch')"id="defaultOpen"><h2 class="tab-long">Mittwoch</h2><h2 class="tab-short">Mi</h2></button>
   <button class="tablinks" onclick="openCity(event, 'Donnerstag')"><h2 class="tab-long">Donnerstag</h2><h2 class="tab-short">Do</h2></button>
   <button class="tablinks" onclick="openCity(event, 'Freitag')" ><h2 class="tab-long">Freitag</h2><h2 class="tab-short">Fr</h2></button>
 </div>
